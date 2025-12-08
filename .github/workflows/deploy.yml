@@ -1,0 +1,41 @@
+name: Deploy to Linux Server
+
+on:
+  push:
+    branches: ["*"]
+  pull_request:
+    branches: ["*"]
+
+jobs:
+  gtfs-check:
+    name: GTFS feeds check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Check GTFS feeds
+        run: python .github/scripts/check_gtfs_feeds.py
+
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    needs: [gtfs-check]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Set up SSH key
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      - name: Add server to known_hosts
+        run: |
+          ssh-keyscan 217.182.174.221 >> ~/.ssh/known_hosts
+
+      - name: Copy files to server
+        run: |
+          rsync -avz --delete --exclude='.git*' ./ jouca@217.182.174.221:/var/www/html/hexatransit/datasets/data
+        env:
+          SSH_AUTH_SOCK: ${{ env.SSH_AUTH_SOCK }}
