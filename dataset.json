@@ -123,7 +123,7 @@
     },
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_donnees-transport-du-reseau-artis.gtfs.zip",
+        "source": "https://api.transitous.org/gtfs/fr_reseau-de-transport-artis.gtfs.zip",
         "feedId": "fr-artis",
         "reference": "https://transitous.org/sources/"
     },
@@ -147,7 +147,7 @@
     },
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_transports-en-commun-ca2bm.gtfs.zip",
+        "source": "https://api.transitous.org/gtfs/fr_reseau-ca2bm-a-compter-du-1er-juin-2025.gtfs.zip",
         "feedId": "fr-ca2bm",
         "reference": "https://transitous.org/sources/"
     },
@@ -591,7 +591,7 @@
     },
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_donnees-theoriques-du-reseau-urbain-de-flers-agglo-au-format-gtfs--83265.gtfs.zip",
+        "source": "https://api.transitous.org/gtfs/fr_donnees-theoriques-du-reseau-urbain-de-flers-agglo-au-format-gtfs.gtfs.zip",
         "feedId": "fr-nemus",
         "reference": "https://transitous.org/sources/"
     },
@@ -991,12 +991,6 @@
     },
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_reseau-de-bus-urbain-horizon--82669.gtfs.zip",
-        "feedId": "fr-horizon",
-        "reference": "https://transitous.org/sources/"
-    },
-    {
-        "type": "gtfs",
         "source": "https://app.pysae.com/api/v2/groups/vendome/gtfs/676e649e1b7a2efbadbbe403",
         "feedId": "fr-move",
         "reference": "https://transport.data.gouv.fr/datasets/gtfs-move-vendome"
@@ -1297,7 +1291,7 @@
     },
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_gtfs-tac-reseau-de-transport-de-grand-chatellerault-2025.gtfs.zip",
+        "source": "https://api.transitous.org/gtfs/fr_donnees-tac-reseau-de-transport-de-grand-chatellerault-2025.gtfs.zip",
         "feedId": "fr-tac-na",
         "reference": "https://transitous.org/sources/"
     },
@@ -1534,12 +1528,6 @@
     },
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_offre-transport-en-commun-du-reseau-transpor-gtfs.gtfs.zip",
-        "feedId": "fr-transpor",
-        "reference": "https://transitous.org/sources/"
-    },
-    {
-        "type": "gtfs",
         "source": "https://zenbus.net/gtfs/static/download.zip?dataset=figeac",
         "feedId": "fr-figeac",
         "reference": "https://transport.data.gouv.fr/datasets/horaires-theoriques-du-reseau-figeac-le-bus-gtfs"
@@ -1687,7 +1675,7 @@
     },
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_horaires-theoriques-du-reseau-stas.gtfs.zip",
+        "source": "https://api.transitous.org/gtfs/fr_horaires-du-reseau-stas.gtfs.zip",
         "feedId": "fr-stas",
         "reference": "https://transitous.org/sources/"
     },
@@ -1777,7 +1765,7 @@
     },
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_horaires-a-compter-du-18-novembre-2024.gtfs.zip",
+        "source": "https://api.transitous.org/gtfs/fr_horaires-montelibus-2025-2026.gtfs.zip",
         "feedId": "fr-montelibus",
         "reference": "https://transitous.org/sources/"
     },
@@ -1881,7 +1869,7 @@
     },
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_gtfs-du-reseau-de-transport-lignes-dazur.gtfs.zip",
+        "source": "https://api.transitous.org/gtfs/fr_donnees-statiques-et-dynamiques-du-reseau-de-transport-lignes-dazur.gtfs.zip",
         "feedId": "fr-azur",
         "reference": "https://transitous.org/sources/"
     },
@@ -2001,7 +1989,7 @@
     },
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_horaires-theoriques-et-temps-reel-du-reseau-cavaillon-c-mon-bus-gtfs-gtfs-rt.gtfs.zip",
+        "source": "https://api.transitous.org/gtfs/fr_gtfs-reseau-cmonbus.gtfs.zip",
         "feedId": "fr-cmonbus-provence",
         "reference": "https://transitous.org/sources/"
     },
