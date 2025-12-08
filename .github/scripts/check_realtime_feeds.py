@@ -90,10 +90,17 @@ def check_url(url: str, retries: int = MAX_RETRIES) -> Tuple[bool, str, int]:
                 # 204 No Content - valid for realtime feeds with no current updates
                 elif status_code == 204:
                     return True, f"OK (No Content - no updates available)", status_code
+                # 429 Too Many Requests - endpoint exists but is rate limited
+                elif status_code == 429:
+                    return True, f"OK (Rate limited - endpoint is working)", status_code
                 else:
                     return False, f"HTTP {status_code}", status_code
                     
         except urllib.error.HTTPError as e:
+            # Treat 429 (rate limit) as success - means endpoint is working
+            if e.code == 429:
+                return True, f"OK (Rate limited - endpoint is working)", e.code
+            
             if attempt < retries - 1:
                 time.sleep(0.5)
                 continue
