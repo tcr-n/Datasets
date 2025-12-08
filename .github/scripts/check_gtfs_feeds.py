@@ -10,13 +10,15 @@ import time
 from pathlib import Path
 from typing import Dict, List, Tuple
 from urllib.parse import urlparse
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import urllib.request
 import urllib.error
 
 # Configuration
 TIMEOUT = 15  # seconds
 MAX_RETRIES = 2
-DELAY_BETWEEN_CHECKS = 0.5  # seconds to avoid overwhelming servers
+MAX_WORKERS = 20  # Number of concurrent checks
+RATE_LIMIT_DELAY = 0.1  # Small delay between batches
 
 
 class Colors:
@@ -45,15 +47,17 @@ def load_dataset(file_path: str = "dataset.json") -> List[Dict]:
 def check_url(url: str, retries: int = MAX_RETRIES) -> Tuple[bool, str, int]:
     """
     Check if a URL is accessible and returns a valid response.
+    Uses HEAD request first for faster checking, falls back to GET if needed.
     
     Returns:
         Tuple of (success: bool, message: str, status_code: int)
     """
     for attempt in range(retries):
         try:
-            # Create request with headers to mimic a browser
+            # Try HEAD request first (faster, doesn't download content)
             req = urllib.request.Request(
                 url,
+                method='HEAD',
                 headers={
                     'User-Agent': 'Mozilla/5.0 (compatible; GTFS-Checker/1.0)',
                     'Accept': '*/*'
@@ -65,42 +69,56 @@ def check_url(url: str, retries: int = MAX_RETRIES) -> Tuple[bool, str, int]:
                 content_type = response.headers.get('Content-Type', '')
                 content_length = response.headers.get('Content-Length', 'unknown')
                 
-                # Check if response looks valid
                 if status_code == 200:
-                    # Read a small portion to verify it's not an error page
-                    content_sample = response.read(1024)
-                    
-                    # Check for ZIP file signature (GTFS files are ZIP archives)
-                    if content_sample[:4] == b'PK\x03\x04':
-                        return True, f"OK (ZIP file, {content_length} bytes)", status_code
-                    elif len(content_sample) > 0:
-                        return True, f"OK ({content_type}, {content_length} bytes)", status_code
-                    else:
-                        return False, "Empty response", status_code
+                    # For HEAD requests, just check headers
+                    return True, f"OK ({content_type}, {content_length} bytes)", status_code
                 else:
                     return False, f"HTTP {status_code}", status_code
                     
         except urllib.error.HTTPError as e:
+            # Some servers don't support HEAD, try GET with limited read
+            if e.code == 405 or e.code == 501:
+                try:
+                    req = urllib.request.Request(
+                        url,
+                        headers={
+                            'User-Agent': 'Mozilla/5.0 (compatible; GTFS-Checker/1.0)',
+                            'Accept': '*/*'
+                        }
+                    )
+                    with urllib.request.urlopen(req, timeout=TIMEOUT) as response:
+                        status_code = response.getcode()
+                        content_length = response.headers.get('Content-Length', 'unknown')
+                        # Read only first 512 bytes to verify
+                        content_sample = response.read(512)
+                        
+                        if status_code == 200 and len(content_sample) > 0:
+                            is_zip = content_sample[:4] == b'PK\x03\x04'
+                            file_type = "ZIP file" if is_zip else "file"
+                            return True, f"OK ({file_type}, {content_length} bytes)", status_code
+                except:
+                    pass
+            
             if attempt < retries - 1:
-                time.sleep(1)
+                time.sleep(0.5)
                 continue
             return False, f"HTTP {e.code}: {e.reason}", e.code
             
         except urllib.error.URLError as e:
             if attempt < retries - 1:
-                time.sleep(1)
+                time.sleep(0.5)
                 continue
             return False, f"Connection error: {str(e.reason)}", 0
             
         except TimeoutError:
             if attempt < retries - 1:
-                time.sleep(1)
+                time.sleep(0.5)
                 continue
             return False, "Timeout", 0
             
         except Exception as e:
             if attempt < retries - 1:
-                time.sleep(1)
+                time.sleep(0.5)
                 continue
             return False, f"Error: {type(e).__name__}: {str(e)}", 0
     
@@ -137,6 +155,42 @@ def validate_feed_structure(feed: Dict, index: int) -> Tuple[bool, List[str]]:
     return len(errors) == 0, errors
 
 
+def check_feed(feed: Dict, index: int, total: int) -> Dict:
+    """
+    Check a single feed (structure validation + URL check).
+    Returns a dict with results.
+    """
+    feed_id = feed.get('feedId', f'feed-{index}')
+    source_url = feed.get('source', 'N/A')
+    
+    result = {
+        'index': index,
+        'feedId': feed_id,
+        'source': source_url,
+        'structure_valid': True,
+        'structure_errors': [],
+        'url_success': False,
+        'url_message': '',
+        'status_code': 0
+    }
+    
+    # Validate structure
+    is_valid, errors = validate_feed_structure(feed, index)
+    result['structure_valid'] = is_valid
+    result['structure_errors'] = errors
+    
+    if not is_valid:
+        return result
+    
+    # Check URL accessibility
+    success, message, status_code = check_url(source_url)
+    result['url_success'] = success
+    result['url_message'] = message
+    result['status_code'] = status_code
+    
+    return result
+
+
 def main():
     """Main execution function"""
     print(f"{Colors.BOLD}{'='*70}{Colors.RESET}")
@@ -155,51 +209,65 @@ def main():
     failed = 0
     failed_feeds = []
     
-    # Check each feed
-    print(f"{Colors.BOLD}Checking feeds...{Colors.RESET}\n")
+    # Check feeds concurrently
+    print(f"{Colors.BOLD}Checking feeds concurrently (max {MAX_WORKERS} workers)...{Colors.RESET}\n")
     
-    for index, feed in enumerate(feeds, 1):
-        feed_id = feed.get('feedId', f'feed-{index}')
-        source_url = feed.get('source', 'N/A')
+    start_time = time.time()
+    results = []
+    
+    # Use ThreadPoolExecutor for concurrent checks
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+        # Submit all tasks
+        future_to_feed = {
+            executor.submit(check_feed, feed, index, total): (feed, index) 
+            for index, feed in enumerate(feeds, 1)
+        }
         
-        print(f"[{index}/{total}] {Colors.BOLD}{feed_id}{Colors.RESET}")
-        print(f"  Source: {source_url}")
+        # Process results as they complete
+        completed = 0
+        for future in as_completed(future_to_feed):
+            result = future.result()
+            results.append(result)
+            completed += 1
+            
+            # Print progress indicator
+            if completed % 10 == 0 or completed == total:
+                print(f"Progress: {completed}/{total} feeds checked", end='\r')
+    
+    print(f"\nCompleted in {time.time() - start_time:.2f} seconds\n")
+    
+    # Sort results by index to display in order
+    results.sort(key=lambda x: x['index'])
+    
+    # Print detailed results
+    print(f"{Colors.BOLD}Results:{Colors.RESET}\n")
+    for result in results:
+        print(f"[{result['index']}/{total}] {Colors.BOLD}{result['feedId']}{Colors.RESET}")
+        print(f"  Source: {result['source']}")
         
-        # Validate structure
-        is_valid, errors = validate_feed_structure(feed, index)
-        if not is_valid:
+        if not result['structure_valid']:
             structure_errors += 1
             print(f"  {Colors.RED}✗ Structure Error:{Colors.RESET}")
-            for error in errors:
+            for error in result['structure_errors']:
                 print(f"    - {error}")
             failed_feeds.append({
-                'feedId': feed_id,
-                'source': source_url,
-                'error': '; '.join(errors)
+                'feedId': result['feedId'],
+                'source': result['source'],
+                'error': '; '.join(result['structure_errors'])
             })
-            print()
-            continue
-        
-        # Check URL accessibility
-        success, message, status_code = check_url(source_url)
-        
-        if success:
+        elif result['url_success']:
             successful += 1
-            print(f"  {Colors.GREEN}✓ {message}{Colors.RESET}")
+            print(f"  {Colors.GREEN}✓ {result['url_message']}{Colors.RESET}")
         else:
             failed += 1
-            print(f"  {Colors.RED}✗ {message}{Colors.RESET}")
+            print(f"  {Colors.RED}✗ {result['url_message']}{Colors.RESET}")
             failed_feeds.append({
-                'feedId': feed_id,
-                'source': source_url,
-                'error': message
+                'feedId': result['feedId'],
+                'source': result['source'],
+                'error': result['url_message']
             })
         
         print()
-        
-        # Small delay to avoid overwhelming servers
-        if index < total:
-            time.sleep(DELAY_BETWEEN_CHECKS)
     
     # Print summary
     print(f"{Colors.BOLD}{'='*70}{Colors.RESET}")
