@@ -138,7 +138,9 @@ def validate_updater_structure(updater: Dict, index: int) -> Tuple[bool, List[st
         'trip-updates', 'trip_updates',
         'vehicle-parking-updater', 'vehicle_parking_updater',
         'bike-rental-updater', 'bike_rental_updater',
-        'bike-park-updater', 'bike_park_updater'
+        'bike-park-updater', 'bike_park_updater',
+        'real-time-alerts', 'real_time_alerts',
+        'alerts', 'alert'
     ]
     if 'type' in updater and updater['type'] not in valid_types:
         errors.append(f"Invalid type: {updater['type']} (expected valid OTP updater type)")
