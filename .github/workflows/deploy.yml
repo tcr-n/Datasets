@@ -17,9 +17,19 @@ jobs:
       - name: Check GTFS feeds
         run: python .github/scripts/check_gtfs_feeds.py
 
+  realtime-check:
+    name: Realtime feeds check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Check Realtime feeds
+        run: python .github/scripts/check_realtime_feeds.py
+
   deploy:
     if: github.ref == 'refs/heads/main'
-    needs: [gtfs-check]
+    needs: [gtfs-check, realtime-check]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
