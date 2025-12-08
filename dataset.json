@@ -1,0 +1,2026 @@
+[
+    {
+        "type": "gtfs",
+        "source": "https://data.iledefrance-mobilites.fr/explore/dataset/offre-horaires-tc-gtfs-idfm/files/a925e164271e4bca93433756d6a340d1/download/",
+        "feedId": "fr-idf",
+        "reference": "https://data.iledefrance-mobilites.fr/explore/dataset/offre-horaires-tc-gtfs-idfm/files/a925e164271e4bca93433756d6a340d1/download/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://gtfs.bus-tracker.fr/sncf.zip",
+        "feedId": "fr-sncf",
+        "reference": "https://transport.data.gouv.fr/datasets/horaires-des-lignes-ter-sncf"
+    },
+
+
+    {
+        "type": "gtfs",
+        "source": "https://geocatalogue.hautsdefrance.fr/gtfs/RHDF_GTFS_COM_02.zip",
+        "feedId": "fr-aisne",
+        "reference": "https://transport.data.gouv.fr/datasets/arrets-horaires-et-parcours-theoriques-gtfs-du-reseau-routier-regional-de-transport-interurbain-02-aisne"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://geocatalogue.hautsdefrance.fr/gtfs/RHDF_GTFS_SCO_02.zip",
+        "feedId": "fr-aisne-sco",
+        "reference": "https://transport.data.gouv.fr/datasets/arrets-horaires-et-parcours-theoriques-gtfs-du-reseau-routier-regional-de-transport-scolaire-02-aisne"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://geocatalogue.hautsdefrance.fr/gtfs/RHDF_GTFS_COM_62.zip",
+        "feedId": "fr-pas-de-calais",
+        "reference": "https://transport.data.gouv.fr/datasets/arrets-horaires-et-parcours-theoriques-gtfs-du-reseau-routier-regional-de-transport-interurbain-62-pas-de-calais-1"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://geocatalogue.hautsdefrance.fr/gtfs/RHDF_GTFS_COM_SCO_60_P1.zip",
+        "feedId": "fr-oise-p1",
+        "reference": "https://transport.data.gouv.fr/datasets/arrets-horaires-et-parcours-theoriques-du-reseau-routier-regional-de-transport-scolaire-et-interurbain-60-oise-1"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://geocatalogue.hautsdefrance.fr/gtfs/RHDF_GTFS_COM_SCO_60_P2.zip",
+        "feedId": "fr-oise-p2",
+        "reference": "https://transport.data.gouv.fr/datasets/arrets-horaires-et-parcours-theoriques-du-reseau-routier-regional-de-transport-scolaire-et-interurbain-60-oise-1"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://geocatalogue.hautsdefrance.fr/gtfs/RHDF_GTFS_COM_SCO_60_P3.zip",
+        "feedId": "fr-oise-p3",
+        "reference": "https://transport.data.gouv.fr/datasets/arrets-horaires-et-parcours-theoriques-du-reseau-routier-regional-de-transport-scolaire-et-interurbain-60-oise-1"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://geocatalogue.hautsdefrance.fr/gtfs/RHDF_GTFS_COM_SCO_60_P4.zip",
+        "feedId": "fr-oise-p4",
+        "reference": "https://transport.data.gouv.fr/datasets/arrets-horaires-et-parcours-theoriques-du-reseau-routier-regional-de-transport-scolaire-et-interurbain-60-oise-1"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://geocatalogue.hautsdefrance.fr/gtfs/RHDF_GTFS_COM_SCO_59_P1.zip",
+        "feedId": "fr-nord-p1",
+        "reference": "https://transport.data.gouv.fr/datasets/arrets-horaires-et-parcours-theoriques-gtfs-du-reseau-routier-regional-de-transport-scolaire-et-interurbain-59-nord"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://geocatalogue.hautsdefrance.fr/gtfs/RHDF_GTFS_COM_SCO_59_P2.zip",
+        "feedId": "fr-nord-p2",
+        "reference": "https://transport.data.gouv.fr/datasets/arrets-horaires-et-parcours-theoriques-gtfs-du-reseau-routier-regional-de-transport-scolaire-et-interurbain-59-nord"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://geocatalogue.hautsdefrance.fr/gtfs/RHDF_GTFS_COM_SCO_59_P3A.zip",
+        "feedId": "fr-nord-p3a",
+        "reference": "https://transport.data.gouv.fr/datasets/arrets-horaires-et-parcours-theoriques-gtfs-du-reseau-routier-regional-de-transport-scolaire-et-interurbain-59-nord"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://geocatalogue.hautsdefrance.fr/gtfs/RHDF_GTFS_COM_SCO_59_P3B.zip",
+        "feedId": "fr-nord-p3b",
+        "reference": "https://transport.data.gouv.fr/datasets/arrets-horaires-et-parcours-theoriques-gtfs-du-reseau-routier-regional-de-transport-scolaire-et-interurbain-59-nord"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://geocatalogue.hautsdefrance.fr/gtfs/RHDF_GTFS_COM_SCO_59_P4.zip",
+        "feedId": "fr-nord-p4",
+        "reference": "https://transport.data.gouv.fr/datasets/arrets-horaires-et-parcours-theoriques-gtfs-du-reseau-routier-regional-de-transport-scolaire-et-interurbain-59-nord"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_localisation-des-arrets-ilevia-bus-metro-et-tram-gtfs-pictogrammes-du-reseau-ilevia-2.gtfs.zip",
+        "feedId": "fr-ilevia",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/api/1/datasets/r/99f29f9e-0dee-473d-9f9c-188e9d1ce9e5",
+        "feedId": "fr-tadao",
+        "reference": "https://transport.data.gouv.fr/datasets/gtfs-tadao"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_offre-de-transports-reseau-dk-bus-de-la-communaute-urbaine-de-dunkerque-gtfs.gtfs.zip",
+        "feedId": "fr-dkbus",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/fr/datasets/r/5bc8b7dc-0d4e-48e7-b2ec-eccfe3702c19",
+        "feedId": "fr-ametis",
+        "reference": "https://transport.data.gouv.fr/datasets/ametis"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.datagrandest.fr/metadata/fluo-grand-est/FR-200052264-T0005-0000/fluo-grand-est-cec-gtfs.zip",
+        "feedId": "fr-sitac-chalons",
+        "reference": "https://transport.data.gouv.fr/datasets/fr-200052264-t0005-0000-1"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_horaires-theoriques-et-temps-reel-du-reseau-de-transport-marineo.gtfs.zip",
+        "feedId": "fr-marineo",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_donnees-transport-du-reseau-artis.gtfs.zip",
+        "feedId": "fr-artis",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_fr-200052264-t0012-0000-1.gtfs.zip",
+        "feedId": "fr-mouveo",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/fr/datasets/r/42e3ea9d-251e-47c1-988d-f7227f0e2d0f",
+        "feedId": "fr-pastel",
+        "reference": "https://transport.data.gouv.fr/datasets/bus-pastel-saint-quentin"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/fr/datasets/r/d00d1684-6980-4f84-ac38-363b6f058a68",
+        "feedId": "fr-tuc",
+        "reference": "https://transport.data.gouv.fr/datasets/donnees-gtfs-reseau-tuc-communaute-dagglomeration-de-cambrai"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_transports-en-commun-ca2bm.gtfs.zip",
+        "feedId": "fr-ca2bm",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/fr/datasets/r/b66f3a43-2ba1-4b61-8459-439104582a92",
+        "feedId": "fr-tus",
+        "reference": "https://transport.data.gouv.fr/datasets/transports-urbains-soissonnais-tus"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/fr/datasets/r/f56b6c9c-0a25-4d87-a1b1-4b108e3d0a22",
+        "feedId": "fr-fablio",
+        "reference": "https://transport.data.gouv.fr/datasets/gtfs-reseau-fablio-lignes-regulieres"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_gtfs-du-reseau-lyneo.gtfs.zip",
+        "feedId": "fr-lyneo",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.oisemob.cityway.fr/dataflow/offre-tc/download?provider=COROLIS_INT&dataFormat=GTFS&dataProfil=OPENDATA",
+        "feedId": "fr-corolis",
+        "reference": "https://transport.data.gouv.fr/datasets/donnees-theoriques-et-temps-reel-du-reseau-corolis-urbain-communaute-dagglomeration-du-beauvaisis"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.oisemob.cityway.fr/dataflow/offre-tc/download?provider=AXO&dataFormat=GTFS&dataProfil=OPENDATA",
+        "feedId": "fr-axo",
+        "reference": "https://transport.data.gouv.fr/datasets/donnees-theoriques-et-temps-reel-du-reseau-axo-communaute-dagglomeration-creil-sud-oise"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_donnees-theoriques-et-temps-reel-du-reseau-mobi-communaute-de-communes-du-pays-de-valois.gtfs.zip",
+        "feedId": "fr-mobi",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_donnees-theoriques-et-temps-reel-du-reseau-pass-thelle-bus-communaute-de-communes-thelloise.gtfs.zip",
+        "feedId": "fr-pass-thelle",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_donnees-theoriques-et-temps-reel-du-reseau-sablons-bus-communaute-de-communes-des-sablons.gtfs.zip",
+        "feedId": "fr-sablons",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_donnees-theoriques-et-temps-reel-du-reseau-airemob-communaute-de-communes-de-laire-cantilienne.gtfs.zip",
+        "feedId": "fr-airemob",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_horaires-theoriques-du-reseau-urbain-de-laon-tul-gtfs.gtfs.zip",
+        "feedId": "fr-tul",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_donnees-theoriques-et-temps-reel-du-reseau-tohm-communaute-de-communes-des-pays-doise-et-dhalatte.gtfs.zip",
+        "feedId": "fr-tohm",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_donnees-theoriques-et-temps-reel-du-reseau-libbus-communaute-de-communes-du-pays-noyonnais.gtfs.zip",
+        "feedId": "fr-libbus",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/fr/datasets/r/eff9558e-4575-429f-bbe1-0cd37f1e6432",
+        "feedId": "fr-villeo-resteo",
+        "reference": "https://transport.data.gouv.fr/datasets/donnees-de-mobilite"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_donnees-theoriques-et-temps-reel-du-reseau-le-bus-communaute-de-communes-du-clermontois.gtfs.zip",
+        "feedId": "fr-lebus",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_donnees-theoriques-du-reseau-hopla-communaute-de-communes-de-la-plaine-destrees.gtfs.zip",
+        "feedId": "fr-hopla",
+        "reference": "https://transitous.org/sources/"
+    },
+
+
+
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_offre-de-transport-du-reseau-fluo-grand-est-ardennes-08.gtfs.zip",
+        "feedId": "fr-ardennes",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_offre-de-transport-du-reseau-fluo-grand-est-aube-10.gtfs.zip",
+        "feedId": "fr-aube",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_offre-de-transport-du-reseau-fluo-grand-est-bas-rhin-67.gtfs.zip",
+        "feedId": "fr-bas-rhin",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_offre-de-transport-du-reseau-fluo-grand-est-haute-marne-52.gtfs.zip",
+        "feedId": "fr-haute-marne",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_offre-de-transport-du-reseau-fluo-grand-est-haut-rhin-68.gtfs.zip",
+        "feedId": "fr-haut-rhin",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_offre-de-transport-du-reseau-fluo-grand-est-marne-51.gtfs.zip",
+        "feedId": "fr-marne",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_offre-de-transport-du-reseau-fluo-grand-est-meurthe-et-moselle-54.gtfs.zip",
+        "feedId": "fr-meurthe-et-moselle",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_offre-de-transport-du-reseau-fluo-grand-est-meuse-55.gtfs.zip",
+        "feedId": "fr-meuse",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_offre-de-transport-du-reseau-fluo-grand-est-moselle-57.gtfs.zip",
+        "feedId": "fr-moselle",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_offre-de-transport-du-reseau-fluo-grand-est-vosges-88.gtfs.zip",
+        "feedId": "fr-vosges",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_donnees-theoriques-gtfs-et-temps-reel-siri-lite-du-reseau-cts.gtfs.zip",
+        "feedId": "fr-cts",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.datagrandest.fr/metadata/fluo-grand-est/FR-200052264-T0031-0000/fluo-grand-est-rei-gtfs.zip",
+        "feedId": "fr-grand-reims",
+        "reference": "https://transport.data.gouv.fr/datasets/offre-de-transport-du-reseau-grand-reims-mobilites-communaute-urbaine-du-grand-reims"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_fr-200052264-t0014-0000-1.gtfs.zip",
+        "feedId": "fr-solea",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_arrets-horaires-et-parcours-theoriques-du-reseau-stan-gtfs.gtfs.zip",
+        "feedId": "fr-stan",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_fr-200052264-t0039-0000-1.gtfs.zip",
+        "feedId": "fr-sub",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_fichiers-gtfs-eurometropole-de-metz.gtfs.zip",
+        "feedId": "fr-lemet",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.datagrandest.fr/metadata/fluo-grand-est/FR-200052264-T0040-0000/fluo-grand-est-citeline-gtfs.zip",
+        "feedId": "fr-citeline",
+        "reference": "https://transport.data.gouv.fr/datasets/fr-200052264-t0040-0000-1"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_donnees-tcat-troyes-champagne-metropole-1.gtfs.zip",
+        "feedId": "fr-tcat",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.datagrandest.fr/metadata/fluo-grand-est/FR-200052264-T0002-0000/fluo-grand-est-chm-gtfs.zip",
+        "feedId": "fr-tac",
+        "reference": "https://transport.data.gouv.fr/datasets/fr-200052264-t0002-0000-1"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_fr-200052264-t0004-0000-1.gtfs.zip",
+        "feedId": "fr-trace",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_fr-200052264-t0009-0000-1.gtfs.zip",
+        "feedId": "fr-imagine",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_fr-200052264-t0008-0000-1.gtfs.zip",
+        "feedId": "fr-ritmo",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/api/1/datasets/r/fd7655bc-bfe7-4c13-ba57-2ce9f9282416",
+        "feedId": "fr-sitac-calais",
+        "reference": "https://transport.data.gouv.fr/datasets/horaires-theoriques-et-temps-reel-aux-formats-gtfs-et-gtfs-rt-du-reseau-sitac?locale=en"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_horaires-theoriques-et-temps-reel-du-reseau-luneo-gtfs-gtfs-rt.gtfs.zip",
+        "feedId": "fr-luneo",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_fr-200052264-t0007-0000-1.gtfs.zip",
+        "feedId": "fr-forbus",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_horaires-theoriques-du-reseau-tgl.gtfs.zip",
+        "feedId": "fr-tgl",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.datagrandest.fr/metadata/fluo-grand-est/FR-200052264-T0038-0000/fluo-grand-est-lefil-gtfs.zip",
+        "feedId": "fr-lefil",
+        "reference": "https://transport.data.gouv.fr/datasets/fr-200052264-t0038-0000-1"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_fr-200052264-t0016-0000-1.gtfs.zip",
+        "feedId": "fr-sylvia",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_fr-200052264-t0001-0000-1.gtfs.zip",
+        "feedId": "fr-cabus",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_fr-200052264-t0017-0000-1.gtfs.zip",
+        "feedId": "fr-distribus",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_fr-200052264-t0010-0000-1.gtfs.zip",
+        "feedId": "fr-ticea",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_fr-200052264-t0015-0000-1.gtfs.zip",
+        "feedId": "fr-transavold",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.datagrandest.fr/metadata/fluo-grand-est/FR-200052264-T0012-0000/fluo-grand-est-epy-gtfs.zip",
+        "feedId": "fr-mouveo-grandest",
+        "reference": "https://transport.data.gouv.fr/datasets/fr-200052264-t0012-0000-1"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_fr-200052264-t0026-0000-1.gtfs.zip",
+        "feedId": "fr-isibus",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.datagrandest.fr/metadata/fluo-grand-est/FR-200052264-T0027-0000/fluo-grand-est-movia-gtfs.zip",
+        "feedId": "fr-colibri",
+        "reference": "https://transport.data.gouv.fr/datasets/fr-200052264-t0027-0000-1"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.datagrandest.fr/metadata/fluo-grand-est/FR-200052264-T0029-0000/fluo-grand-est-lan-gtfs.zip",
+        "feedId": "fr-linggo",
+        "reference": "https://transport.data.gouv.fr/datasets/offre-de-transport-du-reseau-linggo-en-ville-petr-du-pays-de-langres"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_fr-200052264-t0022-0000-1.gtfs.zip",
+        "feedId": "fr-lesit",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_fr-200052264-t0023-0000-1.gtfs.zip",
+        "feedId": "fr-lebus-grandest",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_fr-200052264-t0003-0000-1.gtfs.zip",
+        "feedId": "fr-tub",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_offre-de-transport-du-reseau-elsa-petr-selestat-alsace-centrale.gtfs.zip",
+        "feedId": "fr-tis",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_offre-de-transport-du-reseau-de-la-communaute-de-communes-des-pays-du-sel-et-du-vermois.gtfs.zip",
+        "feedId": "fr-navette-sel-et-vernois",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_fr-200052264-t0025-0000-1.gtfs.zip",
+        "feedId": "fr-tmm",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_fr-200052264-t0006-0000-1.gtfs.zip",
+        "feedId": "fr-cmonbus",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_horaires-theoriques-du-reseau-neobus-communaute-de-communes-de-louest-vosgien-gtfs.gtfs.zip",
+        "feedId": "fr-neobus",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_fr-200052264-t0041-0000-1.gtfs.zip",
+        "feedId": "fr-passo",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_fr-200052264-t0030-0000-1.gtfs.zip",
+        "feedId": "fr-tum",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_fr-200052264-t0011-0000-1.gtfs.zip",
+        "feedId": "fr-rezo",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_giverny-vernon-gare-sncf.gtfs.zip",
+        "feedId": "fr-sngo",
+        "reference": "https://transitous.org/sources/"
+    },
+
+
+
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_nomad-car-region-normandie.gtfs.zip",
+        "feedId": "fr-nomad-car",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_bacs-de-seine-departement-seine-maritime.gtfs.zip",
+        "feedId": "fr-bacs-de-seine",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_donnees-statiques-et-temps-reel-du-reseau-astuce-metropole-rouen-normandie.gtfs.zip",
+        "feedId": "fr-astuce",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_reseau-de-transport-en-commun-lia-gtfs-siri.gtfs.zip",
+        "feedId": "fr-lia",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://twisto-caen.opendatasoft.com/api/explore/v2.1/catalog/datasets/fichier-gtfs-du-reseau-twisto/alternative_exports/gtfs_twisto_zip/",
+        "feedId": "fr-twisto",
+        "reference": "https://twisto-caen.opendatasoft.com/explore/dataset/fichier-gtfs-du-reseau-twisto/export/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/fr/datasets/r/ec78df83-2e60-4284-acc3-86a0baa76bf0",
+        "feedId": "fr-transurbain",
+        "reference": "https://transport.data.gouv.fr/datasets/transurbain-evreux-portes-de-normandie"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_semo-val-de-reuil-louviers-seine-eure-agglo.gtfs.zip",
+        "feedId": "fr-semo",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/fr/datasets/r/777bdff5-01ee-4f45-aaed-177cbca9a087",
+        "feedId": "fr-rezobus",
+        "reference": "https://transport.data.gouv.fr/datasets/reseau-urbain-caux-seine-mobilite-rezobus"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_astrobus-lisieux-normandie.gtfs.zip",
+        "feedId": "fr-astrobus",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_donnees-theoriques-du-reseau-urbain-de-flers-agglo-au-format-gtfs--83265.gtfs.zip",
+        "feedId": "fr-nemus",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/fr/datasets/r/3d1470de-91f7-4d78-8809-790b7ed02662",
+        "feedId": "fr-lbus",
+        "reference": "https://transport.data.gouv.fr/datasets/reseau-transport-urbain-de-bernay"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_argentanbus-argentan-intercom.gtfs.zip",
+        "feedId": "fr-argentan",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_cosibus-coutances-mer-et-bocage.gtfs.zip",
+        "feedId": "fr-cosibus",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_amibus-intercom-de-la-vire-au-noireau.gtfs.zip",
+        "feedId": "fr-amibus",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_neva-granville-terre-et-mer.gtfs.zip",
+        "feedId": "fr-neva",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_deepmob-dieppe-maritime.gtfs.zip",
+        "feedId": "fr-deepmob",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_ficibus-fecamp-caux-littoral.gtfs.zip",
+        "feedId": "fr-ficibus",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_le-bus-pont-audemer-val-de-risle.gtfs.zip",
+        "feedId": "fr-lebus-normandie",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_hobus-honfleur.gtfs.zip",
+        "feedId": "fr-hobus",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_vikibus-yvetot-normandie.gtfs.zip",
+        "feedId": "fr-vikibus",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_moca-communaute-de-communes-caux-austreberthe.gtfs.zip",
+        "feedId": "fr-moca",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_bagnoles-de-lorne.gtfs.zip",
+        "feedId": "fr-bagnoles",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/api/1/datasets/r/2e97c9b3-a59f-42dd-9b9e-a232fa771f21",
+        "feedId": "fr-capcotentin",
+        "reference": "https://transport.data.gouv.fr/datasets/horaires-theoriques-et-en-temps-reel-des-bus-et-autocars-circulant-sur-le-reseau-cap-cotentin"
+    },
+
+
+
+
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_breizhgo-bateaux--81479.gtfs.zip",
+        "feedId": "fr-breitzgo-bateau-brehat",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_breizhgo-bateaux--81480.gtfs.zip",
+        "feedId": "fr-breitzgo-bateau-finistere",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_breizhgo-bateaux--81481.gtfs.zip",
+        "feedId": "fr-breitzgo-bateau-morbihan",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_breizhgo-bateaux--81478.gtfs.zip",
+        "feedId": "fr-breitzgo-bateau-arz",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.korrigo.bzh/ftp/OPENDATA/BREIZHGO_CAR_RLP.gtfs.zip",
+        "feedId": "fr-breitzgo-car-rennes-pontivy",
+        "reference": "https://transport.data.gouv.fr/datasets/breizhgo-car"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_breizhgo-car--81465.gtfs.zip",
+        "feedId": "fr-breitzgo-car-nord-sud",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_breizhgo-car--81461.gtfs.zip",
+        "feedId": "fr-breitzgo-car-22",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_breizhgo-car--81462.gtfs.zip",
+        "feedId": "fr-breitzgo-car-29",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_breizhgo-car--81463.gtfs.zip",
+        "feedId": "fr-breitzgo-car-35",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_breizhgo-car--81464.gtfs.zip",
+        "feedId": "fr-breitzgo-car-56",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://eu.ftp.opendatasoft.com/star/gtfs/GTFS_STAR_BUS_METRO_EN_COURS.zip",
+        "feedId": "fr-star",
+        "reference": "https://transport.data.gouv.fr/datasets/versions-des-horaires-theoriques-des-lignes-de-bus-et-de-metro-du-reseau-star-au-format-gtfs"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://s3.eu-west-1.amazonaws.com/files.orchestra.ratpdev.com/networks/bibus/exports/medias.zip",
+        "feedId": "fr-bibus",
+        "reference": "https://transport.data.gouv.fr/datasets/horaires-theoriques-et-temps-reel-des-bus-et-tramways-circulant-sur-le-territoire-de-brest-metropole"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_horaires-theoriques-du-reseau-izilo-format-gtfs-de-lorient-agglomeration.gtfs.zip",
+        "feedId": "fr-izilo",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_reseau-urbain-kiceo.gtfs.zip",
+        "feedId": "fr-kiceo",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_gtfs-du-reseau-de-transports-publics-de-saint-brieuc-armor-agglomeration.gtfs.zip",
+        "feedId": "fr-tub-bretagne",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_horaires-theoriques-et-temps-reel-du-reseau-quimper-bretagne-occidentale-qub-city-gtfs-gtfs-rt.gtfs.zip",
+        "feedId": "fr-qub",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_tilt-lannion-tregor-communaute.gtfs.zip",
+        "feedId": "fr-tilt",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_reseau-urbain-dinamo.gtfs.zip",
+        "feedId": "fr-dinamo",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_reseau-urbain-scolaire-guingamp-paimpol-mobilite.gtfs.zip",
+        "feedId": "fr-guingamp-paimpol",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_reseau-urbain-distribus.gtfs.zip",
+        "feedId": "fr-distribus-bretagne",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_lineotim-morlaix-communaute.gtfs.zip",
+        "feedId": "fr-lineotim",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_reseau-urbain-surf.gtfs.zip",
+        "feedId": "fr-surf",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://s3.eu-west-1.amazonaws.com/files.orchestra.ratpdev.com/networks/tbk/exports/gtfs-complet.zip",
+        "feedId": "fr-tbk",
+        "reference": "https://transport.data.gouv.fr/datasets/tbk-offre-theorique-et-temps-reel-du-reseau-de-transports-du-pays-de-quimperle"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_coralie-concarneau-cornouaille-agglomeration-transport.gtfs.zip",
+        "feedId": "fr-coralie",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_ar-bus-landerneau-daoulas-transport.gtfs.zip",
+        "feedId": "fr-arbus",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_reseau-urbain-pondibus.gtfs.zip",
+        "feedId": "fr-pondibus",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_tudbus-douarnenez-communaute-transport.gtfs.zip",
+        "feedId": "fr-tudbus",
+        "reference": "https://transitous.org/sources/"
+    },
+
+
+
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_horaires-des-bacs-de-loire-en-loire-atlantique-gtfs.gtfs.zip",
+        "feedId": "fr-bacs-de-loire",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://donnees.paysdelaloire.fr/data/pdl.zip",
+        "feedId": "fr-aleop",
+        "reference": "https://transport.data.gouv.fr/datasets/arrets-horaires-et-circuits-des-lignes-de-transports-aleop-1"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri.gtfs.zip",
+        "feedId": "fr-irigo",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_gtfs-du-reseau-des-transports-bus-et-tramway-setram-circulant-sur-le-territoire-le-mans-metropole.gtfs.zip",
+        "feedId": "fr-setram",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_offre-de-transport-du-reseau-de-laval-agglomeration-gtfs.gtfs.zip",
+        "feedId": "fr-tul-paysdelaloire",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_reseau-urbain-illygo.gtfs.zip",
+        "feedId": "fr-illygo",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_horaires-theoriques-reseau-choletbus.gtfs.zip",
+        "feedId": "fr-choletbus",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://mobi-iti-pdl.okina.fr/static/mobiiti_saumur_val_de_loire/gtfs_imported-id_saumur.zip",
+        "feedId": "fr-ogalo",
+        "reference": "https://transport.data.gouv.fr/datasets/lignes-arrets-et-horaires-theorique-du-reseau-de-transport-gtfs-netex-saumur-val-de-loire-agglomeration"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_reseau-de-transport-impulsyon-a-la-roche-sur-yon.gtfs.zip",
+        "feedId": "fr-impulsyon",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_lignes-arrets-et-horaires-de-transport-pour-cap-atlantique-lila-presquile-gtfs.gtfs.zip",
+        "feedId": "fr-lila",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_lignes-arrets-et-horaires-theorique-du-reseau-de-transport-gtfs-et-netex-les-sables-dolonne-agglomeration.gtfs.zip",
+        "feedId": "fr-oleane",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://app.mecatran.com/utw/ws/gtfsfeed/static/stran-merge?apiKey=2e6071036d276153761f0c090b4a45420e047612&type=gtfs_stran",
+        "feedId": "fr-stran",
+        "reference": "https://transport.data.gouv.fr/datasets/yceo-arrets-horaires-et-lignes-urbaines-et-scolaires-gtfs-1"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/fr/datasets/r/34972a83-5b0f-4f99-b9b7-19593a4c6e1d",
+        "feedId": "fr-hilagobus-gillobus",
+        "reference": "https://transport.data.gouv.fr/datasets/transport-urbain"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_horaires-theoriques-et-temps-reel-du-reseau-maybus-mayenne-gtfs-gtfs-rt.gtfs.zip",
+        "feedId": "fr-maybus",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_reseau-urbain-reso.gtfs.zip",
+        "feedId": "fr-reso",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_reseau-urbain-brevibus.gtfs.zip",
+        "feedId": "fr-brevibus",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://data.nantesmetropole.fr/explore/dataset/244400404_tan-arrets-horaires-circuits/files/16a1a0af5946619af621baa4ad9ee662/download/",
+        "feedId": "fr-nantes",
+        "reference": "https://transport.data.gouv.fr/datasets/reseau-de-transports-collectifs-naolib"
+    },
+
+
+
+    {
+        "type": "gtfs",
+        "source": "https://data.centrevaldeloire.fr/api/explore/v2.1/catalog/datasets/offre-theorique-mobilite-remi/files/eeb5dcb26f8ef4bc4aedcae5193a9e8d",
+        "feedId": "fr-remi",
+        "reference": "https://transport.data.gouv.fr/datasets/remi-offre-theorique-mobilite-reseau-interurbain-regional"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_fil-bleu-syndicat-des-mobilites-gtfs-gtfs-rt.gtfs.zip",
+        "feedId": "fr-filbleu",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_gtfs-et-gtfs-rt-reseau-tao-orleans-metropole-1.gtfs.zip",
+        "feedId": "fr-tao",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_filibus-urbain.gtfs.zip",
+        "feedId": "fr-filibus",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_dreux-offre-theorique-mobilite-reseau-urbain.gtfs.zip",
+        "feedId": "fr-linead",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_agglobus-offre-theorique-mobilite-reseau-urbain-de-bourges.gtfs.zip",
+        "feedId": "fr-agglobus",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_agglopolys-offre-theorique-mobilite-reseau-urbain-azalys-de-blois.gtfs.zip",
+        "feedId": "fr-azalys",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_reseau-de-bus-urbain-horizon--82669.gtfs.zip",
+        "feedId": "fr-horizon",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://app.pysae.com/api/v2/groups/vendome/gtfs/676e649e1b7a2efbadbbe403",
+        "feedId": "fr-move",
+        "reference": "https://transport.data.gouv.fr/datasets/gtfs-move-vendome"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_offre-de-transports-urbain-du-reseau-amelys-gtfs.gtfs.zip",
+        "feedId": "fr-amelys",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_reseau-urbain-le-vib.gtfs.zip",
+        "feedId": "fr-levib",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://data.centrevaldeloire.fr/api/explore/v2.1/catalog/datasets/ville-damboise-offre-theorique-mobilite-reseau-urbain/files/f24d8861791d49837c8500cbf4c8c99f",
+        "feedId": "fr-amboise",
+        "reference": "https://transport.data.gouv.fr/datasets/ville-damboise-offre-theorique-mobilite-reseau-urbain"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_reseau-cvlmobilite-plan-de-transport-theorique-ligne-a-format-gtfs.gtfs.zip",
+        "feedId": "fr-cvl",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://data.centrevaldeloire.fr/api/explore/v2.1/catalog/datasets/issoudun-offre-theorique-mobilite-reseau-urbain/files/2772f7c18af1fbb5f66c8dfc785da579",
+        "feedId": "fr-tig",
+        "reference": "https://transport.data.gouv.fr/datasets/issoudun-offre-theorique-mobilite-reseau-urbain"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_reseau-urbain-nosbus.gtfs.zip",
+        "feedId": "fr-nosbus",
+        "reference": "https://transitous.org/sources/"
+    },
+
+
+
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/fr/datasets/r/e0dbd217-15cd-4e28-9459-211a27511a34",
+        "feedId": "fr-diviamobilite",
+        "reference": "https://transport.data.gouv.fr/datasets/gtfs-diviamobilites"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_gtfs-et-siri-du-reseau-ginko-besancon-lignes-urbaines-et-periurbaines.gtfs.zip",
+        "feedId": "fr-ginko",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/fr/datasets/r/797c424e-7d28-4e65-84f6-6677e47d8a6e",
+        "feedId": "fr-optymo",
+        "reference": "https://transport.data.gouv.fr/datasets/arrets-circuits-et-horaires-du-reseau-optymo-de-belfort"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_evolity-horaires-theoriques-de-transport-public.gtfs.zip",
+        "feedId": "fr-evolity",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/fr/datasets/r/f11a3766-1fe3-40ff-8d5a-27eacda3d9a7",
+        "feedId": "fr-zoom",
+        "reference": "https://transport.data.gouv.fr/datasets/horaires-theoriques-du-reseau-zoom-le-grand-chalon"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/api/1/datasets/r/128b06bc-f263-4530-8e03-395402f87256",
+        "feedId": "fr-monrezo",
+        "reference": "https://transport.data.gouv.fr/datasets/arrets-horaires-et-parcours-theoriques-du-reseau-monrezo-cucm-gtfs-1"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_offre-de-transport-du-reseau-trema-gtfs--83125.gtfs.zip",
+        "feedId": "fr-trema",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_versions-des-horaires-theoriques-des-lignes-du-reseau-de-bus-au-format-gtfs.gtfs.zip",
+        "feedId": "fr-taneo",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/fr/datasets/r/ade0bfc2-0e7a-4087-96dd-a76aeb61d196",
+        "feedId": "fr-leo",
+        "reference": "https://transport.data.gouv.fr/datasets/reseau-de-transports-en-commun-de-la-communaute-dagglomeration-de-lauxerrois"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/fr/datasets/r/5f2edbfa-9025-467d-b769-80f4b1ec4ba6",
+        "feedId": "fr-intercom",
+        "reference": "https://transport.data.gouv.fr/datasets/horaires-du-reseau-de-bus-intercom-3"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_reseau-de-transport-du-grand-dole.gtfs.zip",
+        "feedId": "fr-grandole-mobilite",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/api/1/datasets/r/c00d487c-4766-4ca1-b736-e7de110331d9",
+        "feedId": "fr-cote-et-bus",
+        "reference": "https://transport.data.gouv.fr/datasets/offre-de-transport-de-la-c-a-beaune-cote-sud-gtfs"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/fr/datasets/r/0fd67eb8-24a4-4ae0-b98b-b442f74244e1",
+        "feedId": "fr-tea",
+        "reference": "https://transport.data.gouv.fr/datasets/arrets-lignes-regulieres-reseau-de-transport-urbain-a-autun"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_horaires-theoriques-du-reseau-moova-communaute-dagglomeration-de-vesoul-gtfs.gtfs.zip",
+        "feedId": "fr-moova",
+        "reference": "https://transitous.org/sources/"
+    },
+
+
+
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_arrets-horaires-et-parcours-theoriques-des-reseaux-naq-cog-nva-m-1.gtfs.zip",
+        "feedId": "fr-cognac",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.pigma.org/public/opendata/nouvelle_aquitaine_mobilites/publication/charente-aggregated-gtfs.zip",
+        "feedId": "fr-charente",
+        "reference": "https://transport.data.gouv.fr/datasets/arrets-horaires-et-parcours-theoriques-des-reseaux-naq-cha-nva-m-1"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.pigma.org/public/opendata/nouvelle_aquitaine_mobilites/publication/charente_maritime-aggregated-gtfs.zip",
+        "feedId": "fr-charente-maritime",
+        "reference": "https://transport.data.gouv.fr/datasets/arrets-horaires-et-parcours-theoriques-des-reseaux-naq-cma-nva-m-1"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.pigma.org/public/opendata/nouvelle_aquitaine_mobilites/publication/correze-aggregated-gtfs.zip",
+        "feedId": "fr-correze",
+        "reference": "https://transport.data.gouv.fr/datasets/arrets-horaires-et-parcours-theoriques-des-reseaux-naq-cor-nva-m-1"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.pigma.org/public/opendata/nouvelle_aquitaine_mobilites/publication/creuse-aggregated-gtfs.zip",
+        "feedId": "fr-creuse",
+        "reference": "https://transport.data.gouv.fr/datasets/arrets-horaires-et-parcours-theoriques-des-reseaux-naq-cre-nva-m-1"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.pigma.org/public/opendata/nouvelle_aquitaine_mobilites/publication/vienne-aggregated-gtfs.zip",
+        "feedId": "fr-vienne",
+        "reference": "https://transport.data.gouv.fr/datasets/arrets-horaires-et-parcours-theoriques-des-reseaux-naq-vie-nva-m-1"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.pigma.org/public/opendata/nouvelle_aquitaine_mobilites/publication/deux_sevres-aggregated-gtfs.zip",
+        "feedId": "fr-deux-sevres",
+        "reference": "https://transport.data.gouv.fr/datasets/arrets-horaires-et-parcours-theoriques-des-reseaux-naq-dse-nva-m-1"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.pigma.org/public/opendata/nouvelle_aquitaine_mobilites/publication/dordogne-aggregated-gtfs.zip",
+        "feedId": "fr-dordogne",
+        "reference": "https://transport.data.gouv.fr/datasets/arrets-horaires-et-parcours-theoriques-des-reseaux-naq-dor-nva-m-1"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.pigma.org/public/opendata/nouvelle_aquitaine_mobilites/publication/gironde-aggregated-gtfs.zip",
+        "feedId": "fr-gironde",
+        "reference": "https://transport.data.gouv.fr/datasets/arrets-horaires-et-parcours-theoriques-des-reseaux-naq-gir-nva-m-1"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.pigma.org/public/opendata/nouvelle_aquitaine_mobilites/publication/haute_vienne-aggregated-gtfs.zip",
+        "feedId": "fr-haute-vienne",
+        "reference": "https://transport.data.gouv.fr/datasets/arrets-horaires-et-parcours-theoriques-des-reseaux-naq-hvi-nva-m-1"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.pigma.org/public/opendata/nouvelle_aquitaine_mobilites/publication/landes-aggregated-gtfs.zip",
+        "feedId": "fr-landes",
+        "reference": "https://transport.data.gouv.fr/datasets/arrets-horaires-et-parcours-theoriques-des-reseaux-naq-lan-nva-m-1"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.pigma.org/public/opendata/nouvelle_aquitaine_mobilites/publication/lot_et_garonne-aggregated-gtfs.zip",
+        "feedId": "fr-lot-et-garonne",
+        "reference": "https://transport.data.gouv.fr/datasets/arrets-horaires-et-parcours-theoriques-des-reseaux-naq-lga-nva-m-1"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.pigma.org/public/opendata/nouvelle_aquitaine_mobilites/publication/pyrenees_atlantiques-aggregated-gtfs.zip",
+        "feedId": "fr-pyrenees-atlantiques",
+        "reference": "https://transport.data.gouv.fr/datasets/arrets-horaires-et-parcours-theoriques-des-reseaux-naq-pat-nva-m-1"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.pigma.org/public/opendata/nouvelle_aquitaine_mobilites/publication/bac_gironde-aggregated-gtfs.zip",
+        "feedId": "fr-gironde-maritime",
+        "reference": "https://transport.data.gouv.fr/datasets/arrets-horaires-et-parcours-theoriques-des-reseaux-naq-bac-nva-m"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://zenbus.net/gtfs/static/download.zip?dataset=bordeaux-navettes-aeroport",
+        "feedId": "fr-aeroport-bordeaux",
+        "reference": "https://transport.data.gouv.fr/datasets/horaires-theoriques-et-temps-reel-du-reseau-bordeaux-navettes-aeroport-30-direct-gtfs-gtfs-rt"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_offres-de-services-bus-tram-et-scolaire-au-format-gtfs-netex-gtfs-rt-siri-lite.gtfs.zip",
+        "feedId": "fr-tbm",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_offre-transport-du-reseau-txik-txak.gtfs.zip",
+        "feedId": "fr-txik-txak",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.pigma.org/public/opendata/nouvelle_aquitaine_mobilites/publication/ca_limoges_metropole-aggregated-gtfs.zip",
+        "feedId": "fr-tcl",
+        "reference": "https://transport.data.gouv.fr/datasets/arrets-horaires-et-parcours-theoriques-des-reseaux-naq-lim-nva-m-1"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_fichier-des-donnees-theoriques-du-reseau-scolaris-au-format-gtfs.gtfs.zip",
+        "feedId": "fr-scolaris",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_fichier-des-donnees-theoriques-du-reseau-idelis-au-format-gtfs.gtfs.zip",
+        "feedId": "fr-idelis",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.pigma.org/public/opendata/nouvelle_aquitaine_mobilites/publication/ca_la_rochelle-aggregated-gtfs.zip",
+        "feedId": "fr-yelo",
+        "reference": "https://transport.data.gouv.fr/datasets/arrets-horaires-et-parcours-theoriques-des-reseaux-naq-lro-nva-m-1"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_horaires-theoriques-et-temps-reel-reseau-mobius.gtfs.zip",
+        "feedId": "fr-mobius",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_arrets-horaires-et-parcours-theoriques-des-reseaux-naq-nio-nva-m-1.gtfs.zip",
+        "feedId": "fr-tanlib",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_arrets-horaires-et-parcours-theoriques-des-reseaux-naq-bri-nva-m-1.gtfs.zip",
+        "feedId": "fr-libeo",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.pigma.org/public/opendata/nouvelle_aquitaine_mobilites/publication/ca_grand_perigueux-aggregated-gtfs.zip",
+        "feedId": "fr-peribus",
+        "reference": "https://transport.data.gouv.fr/datasets/arrets-horaires-et-parcours-theoriques-des-reseaux-naq-per-nva-m-1"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/fr/datasets/r/3fd582f2-e2ef-4ad7-894c-6f057b53b006",
+        "feedId": "fr-tempo-sco",
+        "reference": "https://transport.data.gouv.fr/datasets/agen-gtfs-scolaire"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/fr/datasets/r/c1415ff3-7457-4b51-aead-aacbf03a474e",
+        "feedId": "fr-tempo",
+        "reference": "https://transport.data.gouv.fr/datasets/agen-gtfs-urbain"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_arrets-horaires-et-parcours-theoriques-des-reseaux-naq-lib-nva-m-1.gtfs.zip",
+        "feedId": "fr-calibus",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_gtfs-tac-reseau-de-transport-de-grand-chatellerault-2025.gtfs.zip",
+        "feedId": "fr-tac-na",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_arrets-horaires-et-parcours-theoriques-des-reseaux-naq-car-nva-m-1.gtfs.zip",
+        "feedId": "fr-carabus",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_offre-de-transport-ca-du-bocage-bressuirais-1.gtfs.zip",
+        "feedId": "fr-trema-na",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_offre-de-transport-coban.gtfs.zip",
+        "feedId": "fr-alego",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_offre-de-transport-cobas.gtfs.zip",
+        "feedId": "fr-baia",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_reseau-yego-macs.gtfs.zip",
+        "feedId": "fr-yego",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_arrets-horaires-et-parcours-theoriques-des-reseaux-naq-roc-nva-m-1.gtfs.zip",
+        "feedId": "fr-rbus",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.pigma.org/public/opendata/nouvelle_aquitaine_mobilites/publication/ca_val_de_garonne-aggregated-gtfs.zip",
+        "feedId": "fr-evalis",
+        "reference": "https://transport.data.gouv.fr/datasets/arrets-horaires-et-parcours-theoriques-des-reseaux-naq-vdg-nva-m-1"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_offre-de-transport-ca-bergeracoise-1.gtfs.zip",
+        "feedId": "fr-tub-na",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_arrets-horaires-et-parcours-theoriques-des-reseaux-naq-sai-nva-m-1.gtfs.zip",
+        "feedId": "fr-buss",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_reseau-couralin-grand-dax-1.gtfs.zip",
+        "feedId": "fr-couralin",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.pigma.org/public/opendata/nouvelle_aquitaine_mobilites/publication/montesquieu-aggregated-gtfs.zip",
+        "feedId": "fr-montesquieu",
+        "reference": "https://transport.data.gouv.fr/datasets/offre-de-transport-cc-montesquieu"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_arrets-horaires-et-parcours-theoriques-des-reseaux-naq-mdm-nva-m-1.gtfs.zip",
+        "feedId": "fr-tma",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_arrets-horaires-et-parcours-theoriques-des-reseaux-naq-tut-nva-m-1.gtfs.zip",
+        "feedId": "fr-tut",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/fr/datasets/r/9248b0d3-3675-491b-8990-8058f0fdbcb5",
+        "feedId": "fr-elios",
+        "reference": "https://transport.data.gouv.fr/datasets/elios-transports-urbains-du-grand-villeneuvois"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://zenbus.net/gtfs/static/download.zip?dataset=oloron",
+        "feedId": "fr-oloron-sainte-marie",
+        "reference": "https://transport.data.gouv.fr/datasets/horaires-theoriques-et-temps-reel-du-reseau-oloron-sainte-marie-la-navette-gtfs-gtfs-rt"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.pigma.org/public/opendata/nouvelle_aquitaine_mobilites/publication/jalle_eau_bourde-aggregated-gtfs.zip",
+        "feedId": "fr-jalle-eau-bourde",
+        "reference": "https://transport.data.gouv.fr/datasets/offre-de-transport-cc-jalles-eau-bourde"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_agglobus.gtfs.zip",
+        "feedId": "fr-agglobus-na",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_horaires-theoriques-et-temps-reel-du-reseau-respire-ile-de-re-gtfs-gtfs-rt.gtfs.zip",
+        "feedId": "fr-respire",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://zenbus.net/gtfs/static/download.zip?dataset=Sarlat",
+        "feedId": "fr-sarlat",
+        "reference": "https://transport.data.gouv.fr/datasets/horaires-theoriques-et-temps-reel-du-reseau-sarlatbus-gtfs-gtfs-rt"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://pysae.com/api/v2/groups/parthenay/gtfs/675464600aa7a35621cdd070",
+        "feedId": "fr-pybus",
+        "reference": "https://transport.data.gouv.fr/datasets/horaires-theoriques-et-temps-reel-du-reseau-sarlatbus-gtfs-gtfs-rt"
+    },
+
+
+
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_tisseo-reseau-transport-urbain-toulousain.gtfs.zip",
+        "feedId": "fr-tisseo",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_offre-de-transport-de-montpellier-mediterranee-metropole-tam-gtfs.gtfs.zip",
+        "feedId": "fr-tam",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/fr/datasets/r/2afffa1f-aa4a-4fe4-9802-4b5f82bb96c6",
+        "feedId": "fr-sakeo",
+        "reference": "https://transport.data.gouv.fr/datasets/gtfs-sankeo"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/fr/datasets/r/6e9de060-61f6-49aa-a7ae-f0e5f509415a",
+        "feedId": "fr-sakeo-sco",
+        "reference": "https://transport.data.gouv.fr/datasets/gtfs-sankeo"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_offre-de-transport-du-reseau-tango-de-nimes-metropole-gtfs-gtfs-rt.gtfs.zip",
+        "feedId": "fr-tango",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_horaires-theoriques-des-lignes-urbaines-et-interurbaines-sur-le-reseau-alesy-gtfs.gtfs.zip",
+        "feedId": "fr-alesy",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://s3.eu-west-1.amazonaws.com/files.orchestra.ratpdev.com/networks/narbonne/exports/scolaires-sans-tad.zip",
+        "feedId": "fr-grand-narbonne",
+        "reference": "https://transport.data.gouv.fr/datasets/arrets-de-bus-communaute-dagglomeration-le-grand-narbonne"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/api/1/datasets/r/c3e30627-ab57-4608-98e6-e5ebe439ff30",
+        "feedId": "fr-beemob",
+        "reference": "https://transport.data.gouv.fr/datasets/arrets-horaires-et-parcours-theoriques-du-reseau-de-transports-beemob-beziers-mediterranee"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_gtfs-3.gtfs.zip",
+        "feedId": "fr-tlp",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/fr/datasets/r/941123b0-004e-4f48-81e7-8c62fb4f07aa",
+        "feedId": "fr-rtca",
+        "reference": "https://transport.data.gouv.fr/datasets/reseau-bus-sete-agglopole-mobilite"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/fr/datasets/r/eff42667-b36b-4334-bc44-6cf620f90cbf",
+        "feedId": "fr-albi-urbain",
+        "reference": "https://transport.data.gouv.fr/datasets/offre-de-transports-du-grand-albigeois-gtfs"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/fr/datasets/r/79bc8313-3499-4bb3-a809-a8d80b44000a",
+        "feedId": "fr-albi-periurbain",
+        "reference": "https://transport.data.gouv.fr/datasets/offre-de-transports-du-grand-albigeois-gtfs"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/fr/datasets/r/15878ceb-7c8f-4546-bb0f-c540a15f2188",
+        "feedId": "fr-albi-navette",
+        "reference": "https://transport.data.gouv.fr/datasets/offre-de-transports-du-grand-albigeois-gtfs"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/fr/datasets/r/3a917f56-ef8f-428d-8608-bb904952dead",
+        "feedId": "fr-la-navette-gaillac",
+        "reference": "https://transport.data.gouv.fr/datasets/reseau-urbain-la-navette-commune-de-gaillac"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/fr/datasets/r/257e5818-a7cc-49a4-8ad1-3e84827e6458",
+        "feedId": "fr-la-navette-graulhet",
+        "reference": "https://transport.data.gouv.fr/datasets/reseau-urbain-la-navette-commune-de-graulhet"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://zenbus.net/gtfs/static/download.zip?dataset=agdecapbus68429531",
+        "feedId": "fr-capbus",
+        "reference": "https://transport.data.gouv.fr/datasets/gtfs-du-reseau-capbus-en-lien-avec-le-temps-reel-zenbus"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/fr/datasets/r/f17028a4-61ff-4b84-8856-f7c8937a2c28",
+        "feedId": "fr-agglobus-occitanie",
+        "reference": "https://transport.data.gouv.fr/datasets/transport-du-reseau-urbain-agglobus-et-de-transports-scolaires-gtfs"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_horaires-theoriques-et-temps-reel-du-reseau-alliance-auch-gtfs-gtfs-rt.gtfs.zip",
+        "feedId": "fr-alliance",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_offre-transport-en-commun-du-reseau-transpor-gtfs.gtfs.zip",
+        "feedId": "fr-transpor",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://zenbus.net/gtfs/static/download.zip?dataset=figeac",
+        "feedId": "fr-figeac",
+        "reference": "https://transport.data.gouv.fr/datasets/horaires-theoriques-du-reseau-figeac-le-bus-gtfs"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/fr/datasets/r/1f768fa6-ee56-44d8-b322-75b946128fd8",
+        "feedId": "fr-evidence",
+        "reference": "https://transport.data.gouv.fr/datasets/donnees-gtfs-du-reseau-de-transports-public-du-grand-cahors"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_offre-de-transport-du-reseau-libellus-gtfs.gtfs.zip",
+        "feedId": "fr-libellus",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/fr/datasets/r/8c9dd4f7-f6a2-4760-915e-89e8f9666c5b",
+        "feedId": "fr-fbus",
+        "reference": "https://transport.data.gouv.fr/datasets/reseau-lagglo-bus-de-lagglo-foix-varilhes"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/fr/datasets/r/b38a8202-1d7e-4345-964c-f07a335ea90b",
+        "feedId": "fr-mio",
+        "reference": "https://transport.data.gouv.fr/datasets/fiches-horaires-reseau-urbain-mio-ccmillaugrandscausses"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/fr/datasets/r/0163a7b9-f4b1-4d9b-9af1-dcc0e583c3b4",
+        "feedId": "fr-tub-occitanie",
+        "reference": "https://transport.data.gouv.fr/datasets/fiches-horaires-reseau-urbain-mio-ccmillaugrandscausses"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_horaires-theoriques-et-temps-reel-du-reseau-transports-urbains-mendois-mende-gtfs-gtfs-rt.gtfs.zip",
+        "feedId": "fr-tum-occitanie",
+        "reference": "https://transitous.org/sources/"
+    },
+
+
+
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_lyon-tcl.gtfs.zip",
+        "feedId": "fr-lyon",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_reseau-interurbain-cars-region-express.gtfs.zip",
+        "feedId": "fr-cars-express",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_reseau-interurbain-cars-region-haute-loire-43.gtfs.zip",
+        "feedId": "fr-haute-loire",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_reseau-interurbain-cars-region-haute-savoie-74.gtfs.zip",
+        "feedId": "fr-haute-savoie",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_reseau-interurbain-cars-region-ain-01.gtfs.zip",
+        "feedId": "fr-ain",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.oura3.cityway.fr/dataflow/offre-tc/download?provider=ALLIER&dataFormat=GTFS&dataProfil=OPENDATA",
+        "feedId": "fr-allier",
+        "reference": "https://transport.data.gouv.fr/datasets/reseau-interurbain-cars-region-allier-03"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_reseau-interurbain-cars-region-loire-42.gtfs.zip",
+        "feedId": "fr-loire",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.oura3.cityway.fr/dataflow/offre-tc/download?provider=ARDECHE&dataFormat=GTFS&dataProfil=OPENDATA",
+        "feedId": "fr-ardeche",
+        "reference": "https://transport.data.gouv.fr/datasets/reseau-interurbain-cars-region-ardeche-07"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_reseau-interurbain-cars-region-savoie-73.gtfs.zip",
+        "feedId": "fr-savoie",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.itinisere.fr/fr/donnees-open-data/169/OpenData/Download?fileName=CG38.GTFS.zip",
+        "feedId": "fr-isere",
+        "reference": "https://transport.data.gouv.fr/datasets/reseau-cars-region-isere-38"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_reseau-interurbain-cars-region-cantal-15.gtfs.zip",
+        "feedId": "fr-cantal",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_reseau-interurbain-cars-region-puy-de-dome-63.gtfs.zip",
+        "feedId": "fr-puy-de-dome",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_reseau-interurbain-et-scolaire-cars-region-drome-26.gtfs.zip",
+        "feedId": "fr-drome",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_horaires-theoriques-du-reseau-tag.gtfs.zip",
+        "feedId": "fr-tag",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_horaires-theoriques-du-reseau-tougo.gtfs.zip",
+        "feedId": "fr-tougo",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://data.mobilites-m.fr/api/gtfs/TPV",
+        "feedId": "fr-voironnais",
+        "reference": "https://transport.data.gouv.fr/datasets/horaires-theoriques-du-reseau-transport-du-pays-voironnais"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://data.mobilites-m.fr/api/gtfs/BUL",
+        "feedId": "fr-bastille-telepherique",
+        "reference": "https://transport.data.gouv.fr/datasets/horaires-theoriques-du-telepherique-de-la-bastille"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_horaires-theoriques-du-reseau-stas.gtfs.zip",
+        "feedId": "fr-stas",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_syndicat-mixte-des-transports-en-commun-de-lagglomeration-clermontoise-smtc-ac-reseau-t2c-gtfs-gtfs-rt.gtfs.zip",
+        "feedId": "fr-t2c",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_offre-de-transports-sibra-a-annecy-gtfs.gtfs.zip",
+        "feedId": "fr-sibra",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_ce-jeu-de-donnees-contient-la-liste-des-arrets-des-horaires-et-des-parcours-theoriques-du-reseau-de-transport-urbain-et-interurbain-de-vrm.gtfs.zip",
+        "feedId": "fr-citea",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_arrets-et-horaires-theoriques-bus-temps-reel.gtfs.zip",
+        "feedId": "fr-synchrobus",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_rubis-horaires-theoriques-du-reseau-de-transport-urbain-de-grand-bourg-agglomeration.gtfs.zip",
+        "feedId": "fr-rubis",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/fr/datasets/r/4536fa0a-b880-47ba-9f94-42a6303e584b",
+        "feedId": "fr-navette-montbrison",
+        "reference": "https://transport.data.gouv.fr/datasets/navettes-de-loire-forez-agglomeration"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_star-horaires-theoriques-et-temps-reel-du-reseau-de-transport-urbain-de-roannais-agglomeration.gtfs.zip",
+        "feedId": "fr-star-rhone",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/fr/datasets/r/95c73b12-d117-4faf-bb6f-abfe3c95eee1",
+        "feedId": "fr-paysdegex",
+        "reference": "https://transport.data.gouv.fr/datasets/transports-publics-urbains-sur-le-territoire-de-la-ca-du-pays-de-gex-1"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/fr/datasets/r/7cbb883b-d0cb-4bc7-b2e0-7537afdbc86e",
+        "feedId": "fr-start-sco",
+        "reference": "https://transport.data.gouv.fr/datasets/thonon-agglomeration-donnees-gtfs"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_offre-de-transports-reseau-tac-annemasse-agglo.gtfs.zip",
+        "feedId": "fr-tac-rhone",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://s3.eu-west-1.amazonaws.com/files.orchestra.ratpdev.com/networks/vienne-mobi/exports/medias.zip",
+        "feedId": "fr-lva",
+        "reference": "https://transport.data.gouv.fr/datasets/thonon-agglomeration-donnees-gtfs"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_mobivie-reseau-urbain-vichy-communaute.gtfs.zip",
+        "feedId": "fr-mobivie",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_tam-horaires-theoriques-du-reseau-de-transport-urbain-sur-la-ville-damberieu-en-bugey.gtfs.zip",
+        "feedId": "fr-tam-rhone",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_ctlb-donnees-theoriques-et-rt-aix-les-bains-lac-du-bourget.gtfs.zip",
+        "feedId": "fr-ondea",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_horaires-a-compter-du-18-novembre-2024.gtfs.zip",
+        "feedId": "fr-montelibus",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_horaires-theoriques-du-reseau-maelis-montlucon-communaute-gtfs.gtfs.zip",
+        "feedId": "fr-maelis",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/fr/datasets/r/7d54a219-8fe7-4635-a9fc-cefe5e57462e",
+        "feedId": "fr-cherpa",
+        "reference": "https://transport.data.gouv.fr/datasets/cherpa-horaires-lignes-regulieres"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_gtfs-reseau-transport-urbain-coqueligo--82906.gtfs.zip",
+        "feedId": "fr-coqueligo-sco",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_gtfs-reseau-transport-urbain-coqueligo--82905.gtfs.zip",
+        "feedId": "fr-coqueligo",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_reseau-urbain-interurbain-et-scolaire-de-la-communaute-dagglomeration-privas-centre-ardeche--79272.gtfs.zip",
+        "feedId": "fr-tcap",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_reseau-urbain-interurbain-et-scolaire-de-la-communaute-dagglomeration-privas-centre-ardeche--81342.gtfs.zip",
+        "feedId": "fr-tcap-sco",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_donnees-du-reseau-evad-1.gtfs.zip",
+        "feedId": "fr-evad",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.oura3.cityway.fr/dataflow/offre-tc/download?provider=SAONIBUS&dataFormat=GTFS&dataProfil=OPENDATA",
+        "feedId": "fr-saonibus",
+        "reference": "https://transport.data.gouv.fr/datasets/saonibus-horaires-theoriques-et-temps-reel-du-reseau-de-transport-urbain-de-la-cc-dsv"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_donnees-theoriques-et-temps-reel.gtfs.zip",
+        "feedId": "fr-toutenbus",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_offre-de-transports-jybus-a-rumilly.gtfs.zip",
+        "feedId": "fr-jybus",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/api/1/datasets/r/ff226a89-a0f7-4e6d-af0c-3b34b54306ae",
+        "feedId": "fr-3cma",
+        "reference": "https://transport.data.gouv.fr/datasets/transport-urbain-3cma-bus"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_les-navettes-du-giffre-horaires-hiver-2023-2024.gtfs.zip",
+        "feedId": "fr-giffre",
+        "reference": "https://transitous.org/sources/"
+    },
+
+
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_lignes-des-reseaux-transport-zou-provence-alpes-cote-d-azur-proximite-3-3.gtfs.zip",
+        "feedId": "fr-zou",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_lignes-des-reseaux-transport-zou-provence-alpes-cote-d-azur-express-3-3.gtfs.zip",
+        "feedId": "fr-zou-express",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_lignes-des-reseaux-transport-zou-provence-alpes-cote-d-azur-scolaire-1-3.gtfs.zip",
+        "feedId": "fr-zou-sco",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://app.mecatran.com/utw/ws/gtfsfeed/static/mamp?apiKey=60327e505a214c77303f52206f11483069257343",
+        "feedId": "fr-aix-marseille-provence",
+        "reference": "https://transport.data.gouv.fr/datasets/reseaux-de-transports-en-commun-de-la-metropole-daix-marseille-provence-et-des-bouches-du-rhone"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_gtfs-du-reseau-de-transport-lignes-dazur.gtfs.zip",
+        "feedId": "fr-azur",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://s3.eu-west-1.amazonaws.com/files.orchestra.ratpdev.com/networks/rd-toulon/exports/gtfs-complet.zip",
+        "feedId": "fr-mistral",
+        "reference": "https://transport.data.gouv.fr/datasets/reseau-de-transport-urbain-de-la-metropole-toulon-provence-mediterranee"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/fr/datasets/r/47bc8088-6c72-43ad-a959-a5bbdd1aa14f",
+        "feedId": "fr-palmbus",
+        "reference": "https://transport.data.gouv.fr/datasets/horaires-theoriques-et-temps-reel-gtfs-gtfs-rt-du-reseau-palmbus-cannes-pays-de-lerins"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_tedbus-horaires-des-lignes-reseau.gtfs.zip",
+        "feedId": "fr-tedbus",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/fr/datasets/r/851decd7-714f-45ad-9579-d60c06fad9dd",
+        "feedId": "fr-sillages",
+        "reference": "https://transport.data.gouv.fr/datasets/lignes-regulieres-de-transports-sillages-en-pays-de-grasse-urbain-et-scolaire"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/fr/datasets/r/1580b34b-8ebe-42b1-b75c-a4ae41d579b7",
+        "feedId": "fr-sillages-sco",
+        "reference": "https://transport.data.gouv.fr/datasets/lignes-regulieres-de-transports-sillages-en-pays-de-grasse-urbain-et-scolaire"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.datasud.fr/fr/dataset/datasets/1311/resource/5230/download/",
+        "feedId": "fr-mouvenbus",
+        "reference": "https://transport.data.gouv.fr/datasets/reseau-transport-mouv-enbus-agglomeration-provence-verte"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_donnees-statiques-et-temps-reels-reseau-envia.gtfs.zip",
+        "feedId": "fr-envia",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.datasud.fr/fr/dataset/datasets/1224/resource/4791/download/",
+        "feedId": "fr-lebus-provence",
+        "reference": "https://transport.data.gouv.fr/datasets/reseau-transport-urbain-le-bus"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_horaires-reseau-zest.gtfs.zip",
+        "feedId": "fr-zest",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_reseau-de-transport-transcove-de-la-communaute-dagglomeration-ventoux-comtat-venaissin.gtfs.zip",
+        "feedId": "fr-transcove",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/fr/datasets/r/a67da149-19bc-445d-b2d3-855fd82aa240",
+        "feedId": "fr-navette-saint-cyr",
+        "reference": "https://transport.data.gouv.fr/datasets/transports-urbains-st-cyr-s-mer"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/fr/datasets/r/358ab51c-78e8-45a4-ae5a-a05722af6c09",
+        "feedId": "fr-sanary",
+        "reference": "https://transport.data.gouv.fr/datasets/transports-urbains-bandol-sanary-s-mer"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://pysae.com/api/v2/groups/cavalaire/gtfs/pub",
+        "feedId": "fr-calavaire",
+        "reference": "https://transport.data.gouv.fr/datasets/golfe-de-saint-tropez-donnees-mobilite-tc-cavalaire-sur-mer-hiver"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://pysae.com/api/v2/groups/croix-valmer/gtfs/pub",
+        "feedId": "fr-la-croix-valmer",
+        "reference": "https://transport.data.gouv.fr/datasets/golfe-de-saint-tropez-donnees-mobilite-tc-ligne-de-la-croix-valmer"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://pysae.com/api/v2/groups/rayol-canadel/gtfs/pub",
+        "feedId": "fr-le-rayol-canadel",
+        "reference": "https://transport.data.gouv.fr/datasets/golfe-de-saint-tropez-donnees-mobilite-tc-ligne-le-rayol-canadel-sur-mer"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_golfe-de-saint-tropez-donnees-mobilite-tc-ligne-cogolin.gtfs.zip",
+        "feedId": "fr-cogolin",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://pysae.com/api/v2/groups/suma-22ua/gtfs/pub",
+        "feedId": "fr-navette-grimaud",
+        "reference": "https://transport.data.gouv.fr/datasets/golfe-de-saint-tropez-donnees-mobilite-tc-navette-estivale-grimaud"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_golfe-de-saint-tropez-donnees-mobilite-tc-navette-estivale-ramatuelle.gtfs.zip",
+        "feedId": "fr-ramatuelle",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://pysae.com/api/v2/groups/st-tropez/gtfs/pub",
+        "feedId": "fr-saint-tropez",
+        "reference": "https://transport.data.gouv.fr/datasets/golfe-de-saint-tropez-donnees-mobilite-tc-navette-reguliere-saint-tropez"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_horaires-theoriques-et-temps-reel-du-reseau-cavaillon-c-mon-bus-gtfs-gtfs-rt.gtfs.zip",
+        "feedId": "fr-cmonbus-provence",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/fr/datasets/r/21b768a8-28d1-4f18-a7b0-c848da95d95e",
+        "feedId": "fr-tud",
+        "reference": "https://transport.data.gouv.fr/datasets/reseau-de-transport-urbains-dignois"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.transitous.org/gtfs/fr_navette-chorges-chanteloube-ete-2025-reseau-vai.gtfs.zip",
+        "feedId": "fr-vai",
+        "reference": "https://transitous.org/sources/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/fr/datasets/r/bf92984d-4441-4cad-9879-b7209acba875",
+        "feedId": "fr-navette-guillestrois",
+        "reference": "https://transport.data.gouv.fr/datasets/reseau-de-transports-collectifs-de-la-ccgq"
+    }
+]

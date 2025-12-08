@@ -1,0 +1,584 @@
+[
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/odpt/KyotoBus/AllLinesAnotherversion.zip?date=20251208&acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-kyoto-bus-anotherversion",
+        "reference": "https://ckan.odpt.org/en/dataset/kyoto_bus_all_lines_anotherversion"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/odpt/KyotoBus/AllLines.zip?date=20251206&acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-kyoto-bus",
+        "reference": "https://ckan.odpt.org/en/dataset/kyoto_bus_all_lines"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/odpt/KyotoMunicipalTransportation/Kyoto_City_Bus_GTFS.zip?date=20251203&acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-kyoto-municipal-transportation-kyoto-city-bus-gtfs",
+        "reference": "https://ckan.odpt.org/en/dataset/kyoto_municipal_transportation_kyoto_city_bus_gtfs"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api-public.odpt.org/api/v4/files/odpt/KeifukuBus/keifuku_rosen.zip?date=20251201",
+        "feedId": "jp-keifuku-bus-keifuku-rosen",
+        "reference": "https://ckan.odpt.org/en/dataset/keifuku_bus_keifuku_rosen"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/odpt/KantoBus/AllLines.zip?date=20251203&acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-kanto-bus",
+        "reference": "https://ckan.odpt.org/en/dataset/kanto_bus_all_lines"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api-public.odpt.org/api/v4/files/odpt/HakodateCity/Alllines.zip?date=20251211",
+        "feedId": "jp-hakodate-city",
+        "reference": "https://ckan.odpt.org/en/dataset/hakodate_city_alllines"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api-public.odpt.org/api/v4/files/odpt/Kan_etsuTransportation/AllLines.zip?date=20251201",
+        "feedId": "jp-kan-etsu-transportation",
+        "reference": "https://ckan.odpt.org/en/dataset/kan_etsu_transportation_all_lines"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/odpt/TokyuBus/tokyubus_community.zip?date=20251101&acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-tokyu-bus-tokyubus-community",
+        "reference": "https://ckan.odpt.org/en/dataset/tokyu_bus_tokyubus_community"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/odpt/IzuhakoneBus/IZHB.zip?date=20251201&acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-izuhakone-bus-izhb",
+        "reference": "https://ckan.odpt.org/en/dataset/izuhakone_bus_izhb"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api-public.odpt.org/api/v4/files/odpt/MizuhoTown/AllLines.zip?date=20241001",
+        "feedId": "jp-mizuho-town",
+        "reference": "https://ckan.odpt.org/en/dataset/mizuho_town_all_lines"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/odpt/TransportationBureau_CityOfKawasaki/AllLines.zip?date=20251201&acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-transportation-bureau-city-of-kawasaki",
+        "reference": "https://ckan.odpt.org/en/dataset/transportation_bureau_city_of_kawasaki_all_lines"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api-public.odpt.org/api/v4/files/odpt/AomoriCity/AllLines.zip?date=20251201",
+        "feedId": "jp-aomori-city",
+        "reference": "https://ckan.odpt.org/en/dataset/aomori_city_all_lines"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api-public.odpt.org/api/v4/files/odpt/GunmaBus/AllLines.zip?date=20251206",
+        "feedId": "jp-gunma-bus",
+        "reference": "https://ckan.odpt.org/en/dataset/gunma_bus_all_lines"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/odpt/OshimaBus/AllLines.zip?date=20251201&acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-oshima-bus",
+        "reference": "https://ckan.odpt.org/en/dataset/oshima_bus_all_lines"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/odpt/KeioBus/AllLines.zip?date=20251117&acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-keio-bus",
+        "reference": "https://ckan.odpt.org/en/dataset/keio_bus_all_lines"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/odpt/SentetsuBus/AllLines.zip?date=20251117&acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-sentetsu-bus",
+        "reference": "https://ckan.odpt.org/en/dataset/sentetsu_bus_all_lines"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/odpt/KawasakiTsurumiRinkoBus/allrinko.zip?date=20251117&acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-kawasaki-tsurumi-rinko-bus-allrinko",
+        "reference": "https://ckan.odpt.org/en/dataset/kawasaki_tsurumi_rinko_bus_allrinko"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/odpt/MarubunKisen/AllLines.zip?date=20251005&acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-marubun-kisen",
+        "reference": "https://ckan.odpt.org/en/dataset/marubun_kisen_all_lines"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api-public.odpt.org/api/v4/files/odpt/NagoyaHousingCityPlanningBureau/NagoyaSRT_AllLines.zip?date=20260213",
+        "feedId": "jp-nagoya-housing-city-planning-bureau-nagoya-srt",
+        "reference": "https://ckan.odpt.org/en/dataset/nagoya_housing_city_planning_bureau_nagoya_srt_all_lines"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/odpt/BingoShosen/AllLines.zip?date=20251007&acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-bingo-shosen",
+        "reference": "https://ckan.odpt.org/en/dataset/bingo_shosen_all_lines"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/odpt/TaneyakuKousokusen/AllLines.zip?date=20250901&acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-taneyaku-kousokusen",
+        "reference": "https://ckan.odpt.org/en/dataset/taneyaku_kousokusen_all_lines"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/odpt/SuonadaFerry/AllLines.zip?date=20251029&acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-suonada-ferry",
+        "reference": "https://ckan.odpt.org/en/dataset/suonada_ferry_all_lines"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/odpt/HankyuFerry/schedul_hankyu.zip?date=20260101&acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-hankyu-ferry-schedul-hankyu",
+        "reference": "https://ckan.odpt.org/en/dataset/hankyu_ferry_schedul_hankyu"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/odpt/MeimonTaiyoFerry/AllLines.zip?date=20260101&acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-meimon-taiyo-ferry",
+        "reference": "https://ckan.odpt.org/en/dataset/meimon_taiyo_ferry_all_lines"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/odpt/KyushoFerry/AllLines.zip?date=20251005&acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-kyusho-ferry",
+        "reference": "https://ckan.odpt.org/en/dataset/kyusho_ferry_all_lines"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api-public.odpt.org/api/v4/files/odpt/HitachiAutomobileTransportation/AllLines.zip?date=20251105",
+        "feedId": "jp-hitachi-automobile-transportation",
+        "reference": "https://ckan.odpt.org/en/dataset/hitachi_automobile_transportation_all_lines"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api-public.odpt.org/api/v4/files/odpt/HitachiAutomobileTransportation/Chiyoda_ALLLINES.zip?date=20250601",
+        "feedId": "jp-hitachi-automobile-transportation-chiyoda",
+        "reference": "https://ckan.odpt.org/en/dataset/hitachi_automobile_transportation_chiyoda_alllines"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api-public.odpt.org/api/v4/files/odpt/TokyoTaitoCity/megurinCCBY40.zip?date=20251028",
+        "feedId": "jp-tokyo-taito-city-megurin-ccby40",
+        "reference": "https://ckan.odpt.org/en/dataset/tokyo_taito_city_megurin_ccby40"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/odpt/HimeshimaVill/AllLines.zip?date=20250814&acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-himeshima-vill",
+        "reference": "https://ckan.odpt.org/en/dataset/himeshima_vill_all_lines"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/odpt/YokohamaMunicipal/Train.zip?date=20251101&acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-yokohama-municipal-train",
+        "reference": "https://ckan.odpt.org/en/dataset/yokohama_municipal_train"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/odpt/YokohamaMunicipal/Bus.zip?date=20251101&acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-yokohama-municipal-bus",
+        "reference": "https://ckan.odpt.org/en/dataset/yokohama_municipal_bus"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/odpt/KyotoMunicipalTransportation/Kyoto_City_Subway_GTFS.zip?date=20250702&acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-kyoto-municipal-transportation-kyoto-city-subway-gtfs",
+        "reference": "https://ckan.odpt.org/en/dataset/kyoto_municipal_transportation_kyoto_city_subway_gtfs"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api-public.odpt.org/api/v4/files/odpt/UnoBus/AllLines.zip?date=20251104",
+        "feedId": "jp-uno-bus",
+        "reference": "https://ckan.odpt.org/en/dataset/uno_bus_all_lines"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/odpt/TokyoCruiseShip/AllLines.zip?date=20250402&acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-tokyo-cruise-ship",
+        "reference": "https://ckan.odpt.org/en/dataset/tokyo_cruise_ship_all_lines"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/odpt/UwajimaUnyu/AllLines.zip?date=20251001&acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-uwajima-unyu",
+        "reference": "https://ckan.odpt.org/en/dataset/uwajima_unyu_all_lines"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api-public.odpt.org/api/v4/files/odpt/AkitaCity/AkitaCityBus.zip?date=20250401",
+        "feedId": "jp-akita-city-akita-city-bus",
+        "reference": "https://ckan.odpt.org/en/dataset/akita_city_akita_city_bus"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/odpt/NishiTokyoBus/NTBus.zip?date=20251008&acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-nishi-tokyo-bus-nt-bus",
+        "reference": "https://ckan.odpt.org/en/dataset/nishi_tokyo_bus_nt_bus"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/odpt/AkihaBusService/AllLines.zip?date=20251008&acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-akiha-bus-service",
+        "reference": "https://ckan.odpt.org/en/dataset/akiha_bus_service_all_lines"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/odpt/OdakyuBus/AIILines.zip?date=20251001&acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-odakyu-bus-aii-lines",
+        "reference": "https://ckan.odpt.org/en/dataset/odakyu_bus_aii_lines"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api-public.odpt.org/api/v4/files/odpt/UrbanDevelopment_AomoriCity/AllLines.zip?date=20250918",
+        "feedId": "jp-urban-development-aomori-city",
+        "reference": "https://ckan.odpt.org/en/dataset/urban_development_aomori_city_all_lines"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/odpt/TokaiKisen/AllLines.zip?date=20251001&acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-tokai-kisen",
+        "reference": "https://ckan.odpt.org/en/dataset/tokai_kisen_all_lines"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/odpt/HokkaidoTakushokuBus/Takusyoku_regular_line.zip?date=20251001&acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-hokkaido-takushoku-bus-takusyoku-regular-line",
+        "reference": "https://ckan.odpt.org/en/dataset/hokkaido_takushoku_bus_takusyoku_regular_line"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api-public.odpt.org/api/v4/files/odpt/MiyakeVill/AllLine.zip?date=20250929",
+        "feedId": "jp-miyake-vill-all-line",
+        "reference": "https://ckan.odpt.org/en/dataset/miyake_vill_all_line"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api-public.odpt.org/api/v4/files/odpt/NagaiTransportation/AllLines.zip?date=20251001",
+        "feedId": "jp-nagai-transportation",
+        "reference": "https://ckan.odpt.org/en/dataset/nagai_transportation_all_lines"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api-public.odpt.org/api/v4/files/odpt/NipponChuoBus/Maebashi_Area.zip?date=20251001",
+        "feedId": "jp-nippon-chuo-bus-maebashi-area",
+        "reference": "https://ckan.odpt.org/en/dataset/nippon_chuo_bus_maebashi_area"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/odpt/ALineFerry/AllLines.zip?date=20250801&acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-a-line-ferry",
+        "reference": "https://ckan.odpt.org/en/dataset/a_line_ferry_all_lines"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/odpt/OkushiriIslandFerry/Okushiri_Esashi_Ferry_Route.zip?date=20250919&acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-okushiri-island-ferry-okushiri-esashi-ferry-route",
+        "reference": "https://ckan.odpt.org/en/dataset/okushiri_island_ferry_okushiri_esashi_ferry_route"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api-public.odpt.org/api/v4/files/odpt/KiyoseCity/KiyoBus.zip?date=20251001",
+        "feedId": "jp-kiyose-city-kiyo-bus",
+        "reference": "https://ckan.odpt.org/en/dataset/kiyose_city_kiyo_bus"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/odpt/KagoshimaCityMaritimeBureau/AllLines.zip?date=20251010&acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-kagoshima-city-maritime-bureau",
+        "reference": "https://ckan.odpt.org/en/dataset/kagoshima_city_maritime_bureau_all_lines"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api-public.odpt.org/api/v4/files/odpt/NipponChuoBus/Okutano_Area.zip?date=20231101",
+        "feedId": "jp-nippon-chuo-bus-okutano-area",
+        "reference": "https://ckan.odpt.org/en/dataset/nippon_chuo_bus_okutano_area"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/odpt/HokkaidoTakushokuBus/Takusyoku_highway_line.zip?date=20250826&acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-hokkaido-takushoku-bus-takusyoku-highway-line",
+        "reference": "https://ckan.odpt.org/en/dataset/hokkaido_takushoku_bus_takusyoku_highway_line"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api-public.odpt.org/api/v4/files/odpt/AkaiwaCity/AllLines.zip?date=20250815",
+        "feedId": "jp-akaiwa-city",
+        "reference": "https://ckan.odpt.org/en/dataset/akaiwa_city_all_lines"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api-challenge.odpt.org/api/v4/files/JR-East/data/JR-East-Train-GTFS.zip?acl:consumerKey=b780a0b0ybfseb8uvykp6xa506tgzyna87zytvdr7ll5jziv3mbf8mvk67dfa7r1",
+        "feedId": "jp-jreast-tokyo-area",
+        "reference": "https://ckan.odpt.org/en/dataset/jreast_tokyo_area"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api-public.odpt.org/api/v4/files/odpt/Shimoden/Shimoden_GTFS_Static.zip?date=20250726",
+        "feedId": "jp-shimoden-shimoden-gtfs-static",
+        "reference": "https://ckan.odpt.org/en/dataset/shimoden_shimoden_gtfs_static"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/odpt/Shimoden/Shimoden_BUS_GTFS_Realtime.zip?date=20250726&acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-shimoden-shimoden-bus-gtfs-realtime",
+        "reference": "https://ckan.odpt.org/en/dataset/shimoden_shimoden_bus_gtfs_realtime"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/odpt/JuoBus/Isesaki_Honjo_Line.zip?date=20250721&acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-juo-bus-isesaki-honjo-line",
+        "reference": "https://ckan.odpt.org/en/dataset/juo_bus_isesaki_honjo_line"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api-public.odpt.org/api/v4/files/odpt/KeiseiTransitBus/AllLines.zip?date=20250401",
+        "feedId": "jp-keisei-transit-bus",
+        "reference": "https://ckan.odpt.org/en/dataset/keisei_transit_bus_all_lines"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api-challenge.odpt.org/api/v4/files/Tobu/data/Tobu-Train-GTFS.zip?acl:consumerKey=b780a0b0ybfseb8uvykp6xa506tgzyna87zytvdr7ll5jziv3mbf8mvk67dfa7r1",
+        "feedId": "jp-tobu-train",
+        "reference": "https://ckan.odpt.org/en/dataset/tobu_train"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api-challenge.odpt.org/api/v4/files/Sotetsu/data/Sotetsu-Train-GTFS.zip?acl:consumerKey=b780a0b0ybfseb8uvykp6xa506tgzyna87zytvdr7ll5jziv3mbf8mvk67dfa7r1",
+        "feedId": "jp-sotetsu-train",
+        "reference": "https://ckan.odpt.org/en/dataset/sotetsu_train"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api-public.odpt.org/api/v4/files/odpt/KunitachiCity/kunitachi_city_kunikko.zip?date=20250701",
+        "feedId": "jp-kunitachi-city-kunitachi-city-kunikko",
+        "reference": "https://ckan.odpt.org/en/dataset/kunitachi_city_kunitachi_city_kunikko"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/odpt/Daishinto/Radiantcity_Yokohama.zip?date=20250527&acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-daishinto-radiantcity-yokohama",
+        "reference": "https://ckan.odpt.org/en/dataset/daishinto_radiantcity_yokohama"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api-public.odpt.org/api/v4/files/odpt/TokyoSuginamiCity/GreenSlowMobility.zip?date=20250524",
+        "feedId": "jp-tokyo-suginami-city-green-slow-mobility",
+        "reference": "https://ckan.odpt.org/en/dataset/tokyo_suginami_city_green_slow_mobility"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/odpt/OrangeFerry/AllLines.zip?date=20250517&acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-orange-ferry",
+        "reference": "https://ckan.odpt.org/en/dataset/orange_ferry_all_lines"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api-public.odpt.org/api/v4/files/odpt/OtoneKotsu/AllLines.zip?date=20250506",
+        "feedId": "jp-otone-kotsu",
+        "reference": "https://ckan.odpt.org/en/dataset/otone_kotsu_all_lines"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api-public.odpt.org/api/v4/files/odpt/NishitokyoCity/AllLines.zip?date=20250507",
+        "feedId": "jp-nishitokyo-city",
+        "reference": "https://ckan.odpt.org/en/dataset/nishitokyo_city_all_lines"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api-public.odpt.org/api/v4/files/odpt/HitachiAutomobileTransportation/KitaAllLines.zip?date=20250401",
+        "feedId": "jp-hitachi-automobile-transportation-kita",
+        "reference": "https://ckan.odpt.org/en/dataset/hitachi_automobile_transportation_kita_all_lines"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api-public.odpt.org/api/v4/files/odpt/GunmachuoBus/AllLines.zip?date=20250401",
+        "feedId": "jp-gunmachuo-bus",
+        "reference": "https://ckan.odpt.org/en/dataset/gunmachuo_bus_all_lines"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api-public.odpt.org/api/v4/files/odpt/JoshinKankoBus/AllLines.zip?date=20250401",
+        "feedId": "jp-joshin-kanko-bus",
+        "reference": "https://ckan.odpt.org/en/dataset/joshin_kanko_bus_all_lines"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api-public.odpt.org/api/v4/files/odpt/HigashiyamatoCity/AllLines_CC0.zip?date=20250319",
+        "feedId": "jp-higashiyamato-city-cc0",
+        "reference": "https://ckan.odpt.org/en/dataset/higashiyamato_city_all_lines_cc0"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/odpt/HigashiyamatoCity/AllLines_ODPT.zip?date=20250324&acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-higashiyamato-city-odpt",
+        "reference": "https://ckan.odpt.org/en/dataset/higashiyamato_city_all_lines_odpt"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api-public.odpt.org/api/v4/files/odpt/HigashiyamatoCity/AllLines_CCBY4.zip?date=20250324",
+        "feedId": "jp-higashiyamato-city-ccby4",
+        "reference": "https://ckan.odpt.org/en/dataset/higashiyamato_city_all_lines_ccby4"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/odpt/TsukubaKankouKotsu/CoCoBusNogawa.zip?date=20250401&acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-tsukuba-kankou-kotsu-co-co-bus-nogawa",
+        "reference": "https://ckan.odpt.org/en/dataset/tsukuba_kankou_kotsu_co_co_bus_nogawa"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api-public.odpt.org/api/v4/files/odpt/HigashiMurayamaCity/Alllines.zip?date=20240401",
+        "feedId": "jp-higashi-murayama-city",
+        "reference": "https://ckan.odpt.org/en/dataset/higashi_murayama_city_alllines"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api-public.odpt.org/api/v4/files/odpt/MachidaCity/AllLines.zip?date=20250315",
+        "feedId": "jp-machida-city",
+        "reference": "https://ckan.odpt.org/en/dataset/machida_city_all_lines"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api-public.odpt.org/api/v4/files/odpt/ShichigahamaTown/All_Gururinko.zip?date=20250225",
+        "feedId": "jp-shichigahama-town-all-gururinko",
+        "reference": "https://ckan.odpt.org/en/dataset/shichigahama_town_all_gururinko"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api-public.odpt.org/api/v4/files/odpt/TachikawaCity/kururin_bus_alllines.zip?date=20250228",
+        "feedId": "jp-tachikawa-city-kururin-bus",
+        "reference": "https://ckan.odpt.org/en/dataset/tachikawa_city_kururin_bus_alllines"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/odpt/TokyoChuoCity/Alldata.zip?date=20250108&acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-tokyo-chuo-city-alldata",
+        "reference": "https://ckan.odpt.org/en/dataset/tokyo_chuo_city_alldata"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/odpt/SanwaMerchantVessel/AllLines.zip?date=20241201&acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-sanwa-merchant-vessel",
+        "reference": "https://ckan.odpt.org/en/dataset/sanwa_merchant_vessel_all_lines"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api-public.odpt.org/api/v4/files/odpt/KokubunjiCity/kokubunji_city_bunbus.zip?date=20250106",
+        "feedId": "jp-kokubunji-city-kokubunji-city-bunbus",
+        "reference": "https://ckan.odpt.org/en/dataset/kokubunji_city_kokubunji_city_bunbus"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api-public.odpt.org/api/v4/files/odpt/NagaiTransportation/Tamarin.zip?date=20240401",
+        "feedId": "jp-nagai-transportation-tamarin",
+        "reference": "https://ckan.odpt.org/en/dataset/nagai_transportation_tamarin"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api-public.odpt.org/api/v4/files/odpt/InagiCity/ibas_A_course.zip?date=20240219",
+        "feedId": "jp-inagi-city-ibas-a-course",
+        "reference": "https://ckan.odpt.org/en/dataset/inagi_city_ibas_a_course"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/MIR/data/MIR-Train-GTFS.zip?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-train-mir",
+        "reference": "https://ckan.odpt.org/en/dataset/train-mir"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api-public.odpt.org/api/v4/files/Toei/data/Toei-Train-GTFS.zip",
+        "feedId": "jp-train-toei",
+        "reference": "https://ckan.odpt.org/en/dataset/train-toei"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/TamaMonorail/data/TamaMonorail-Train-GTFS.zip?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-train-tamamonorail",
+        "reference": "https://ckan.odpt.org/en/dataset/train-tamamonorail"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/TWR/data/TWR-Train-GTFS.zip?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-train-twr",
+        "reference": "https://ckan.odpt.org/en/dataset/train-twr"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/TokyoMetro/data/TokyoMetro-Train-GTFS.zip?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-train-tokyometro",
+        "reference": "https://ckan.odpt.org/en/dataset/train-tokyometro"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/SakataFerryOffice/data/output-3.zip?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-f-ferry-gtfs-sakataferryoffice",
+        "reference": "https://ckan.odpt.org/en/dataset/f_ferry_gtfs-sakataferryoffice"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/SeibuBus/data/SeibuBus-GTFS.zip?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-seibu-bus--b-bus-gtfs",
+        "reference": "https://ckan.odpt.org/en/dataset/seibu_bus__b-bus_gtfs"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/JoetsuCity/data/data-1.zip?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-b-bus-gtfs-jp-city-joetsu-niigata",
+        "reference": "https://ckan.odpt.org/en/dataset/b_bus_gtfs_jp-city_joetsu_niigata"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/FujikyuMarineResort/data/output.zip?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-f-ferry-gtfs-fujikyumarineresort",
+        "reference": "https://ckan.odpt.org/en/dataset/f_ferry_gtfs-fujikyumarineresort"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/ItsukishimaKisen/data/GTFS.zip?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-f-ferry-gtfs-itsukishimakisen",
+        "reference": "https://ckan.odpt.org/en/dataset/f_ferry_gtfs-itsukishimakisen"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api-public.odpt.org/api/v4/files/ShodoshimaTown/data/gtfs-町営バス三都西線2022v01.zip",
+        "feedId": "jp-b-bus-gtfs-jp-town-shodoshima-kagawa",
+        "reference": "https://ckan.odpt.org/en/dataset/b_bus_gtfs_jp-town_shodoshima_kagawa"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/HaboroEnkaiFerry/data/GTFS.zip?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-f-ferry-gtfs-haboroenkaiferry",
+        "reference": "https://ckan.odpt.org/en/dataset/f_ferry_gtfs-haboroenkaiferry"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api-public.odpt.org/api/v4/files/MitoyoCity/data/data-1.zip",
+        "feedId": "jp-b-bus-gtfs-jp-city-mitoyo-kagawa",
+        "reference": "https://ckan.odpt.org/en/dataset/b_bus_gtfs_jp-city_mitoyo_kagawa"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/ShimizuCruise/data/output.zip?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-f-ferry-gtfs-shimizucruise",
+        "reference": "https://ckan.odpt.org/en/dataset/f_ferry_gtfs-shimizucruise"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.odpt.org/api/v4/files/NippoKisen/data/Nippou_Kisen.zip?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+        "feedId": "jp-f-ferry-gtfs-nippokisen",
+        "reference": "https://ckan.odpt.org/en/dataset/f_ferry_gtfs-nippokisen"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api-public.odpt.org/api/v4/files/Toei/data/ToeiBus-GTFS.zip",
+        "feedId": "jp-b-bus-gtfs-jp-toei",
+        "reference": "https://ckan.odpt.org/en/dataset/b_bus_gtfs_jp-toei"
+    }
+]
