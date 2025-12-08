@@ -138,10 +138,18 @@ def validate_updater_structure(updater: Dict, index: int) -> Tuple[bool, List[st
         if field not in updater:
             errors.append(f"Missing required field: {field}")
     
-    # Validate updater type
-    valid_types = ['gtfs-http', 'stop-time-updater', 'vehicle-positions', 'trip-updates']
+    # Validate updater type - support both hyphen and underscore variants
+    valid_types = [
+        'gtfs-http', 'gtfs_http',
+        'stop-time-updater', 'stop_time_updater',
+        'vehicle-positions', 'vehicle_positions',
+        'trip-updates', 'trip_updates',
+        'vehicle-parking-updater', 'vehicle_parking_updater',
+        'bike-rental-updater', 'bike_rental_updater',
+        'bike-park-updater', 'bike_park_updater'
+    ]
     if 'type' in updater and updater['type'] not in valid_types:
-        errors.append(f"Invalid type: {updater['type']} (expected one of {valid_types})")
+        errors.append(f"Invalid type: {updater['type']} (expected valid OTP updater type)")
     
     # Validate URL
     if 'url' in updater:
