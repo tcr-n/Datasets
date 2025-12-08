@@ -47,20 +47,19 @@ def load_realtime_data(file_path: str = "realtime.json") -> Dict:
 def check_url(url: str, retries: int = MAX_RETRIES) -> Tuple[bool, str, int]:
     """
     Check if a URL is accessible and returns a valid response.
-    Uses HEAD request first for faster checking, falls back to GET if needed.
+    For realtime APIs, uses GET request as many don't support HEAD.
     
     Returns:
         Tuple of (success: bool, message: str, status_code: int)
     """
     for attempt in range(retries):
         try:
-            # Try HEAD request first (faster, doesn't download content)
+            # For realtime feeds, always use GET as APIs often don't support HEAD
             req = urllib.request.Request(
                 url,
-                method='HEAD',
                 headers={
                     'User-Agent': 'Mozilla/5.0 (compatible; Realtime-Checker/1.0)',
-                    'Accept': '*/*'
+                    'Accept': 'application/x-protobuf, application/json, */*'
                 }
             )
             
@@ -70,34 +69,27 @@ def check_url(url: str, retries: int = MAX_RETRIES) -> Tuple[bool, str, int]:
                 content_length = response.headers.get('Content-Length', 'unknown')
                 
                 if status_code == 200:
-                    # For HEAD requests, just check headers
-                    return True, f"OK ({content_type}, {content_length} bytes)", status_code
+                    # Read a small sample to verify it's not an error page
+                    content_sample = response.read(1024)
+                    
+                    # Check if we got actual data
+                    if len(content_sample) > 0:
+                        # Check for protobuf (GTFS-RT) or JSON
+                        is_protobuf = content_sample[0:2] in [b'\x0a', b'\x12', b'\x1a']  # Common protobuf starters
+                        is_json = content_sample.strip().startswith(b'{') or content_sample.strip().startswith(b'[')
+                        
+                        if is_protobuf:
+                            return True, f"OK (GTFS-RT protobuf, {content_length} bytes)", status_code
+                        elif is_json:
+                            return True, f"OK (JSON, {content_length} bytes)", status_code
+                        else:
+                            return True, f"OK ({content_type}, {content_length} bytes)", status_code
+                    else:
+                        return False, "Empty response", status_code
                 else:
                     return False, f"HTTP {status_code}", status_code
                     
         except urllib.error.HTTPError as e:
-            # Some servers don't support HEAD, try GET with limited read
-            if e.code == 405 or e.code == 501:
-                try:
-                    req = urllib.request.Request(
-                        url,
-                        headers={
-                            'User-Agent': 'Mozilla/5.0 (compatible; Realtime-Checker/1.0)',
-                            'Accept': '*/*'
-                        }
-                    )
-                    with urllib.request.urlopen(req, timeout=TIMEOUT) as response:
-                        status_code = response.getcode()
-                        content_length = response.headers.get('Content-Length', 'unknown')
-                        content_type = response.headers.get('Content-Type', 'unknown')
-                        # Read only first 512 bytes to verify
-                        content_sample = response.read(512)
-                        
-                        if status_code == 200 and len(content_sample) > 0:
-                            return True, f"OK ({content_type}, {content_length} bytes)", status_code
-                except:
-                    pass
-            
             if attempt < retries - 1:
                 time.sleep(0.5)
                 continue
