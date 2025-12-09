@@ -452,13 +452,13 @@
         {
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
-            "frequency": "2m",
+            "frequency": "30s",
             "url": "https://www.reseau-astuce.fr/ftp/gtfsrt/Astuce.TripUpdate.pb",
             "feedId": "fr-astuce"
         },
         {
             "type": "vehicle-positions",
-            "frequency": "1m",
+            "frequency": "30s",
             "url": "https://www.reseau-astuce.fr/ftp/gtfsrt/Astuce.VehiclePosition.pb",
             "feedId": "fr-astuce"
         },
@@ -466,35 +466,35 @@
         {
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
-            "frequency": "2m",
-            "url": "https://proxy.transport.data.gouv.fr/resource/astuce-26-30-rouen-gtfs-rt-trip-update",
-            "feedId": "fr-astuce-plus"
+            "frequency": "30s",
+            "url": "https://api.mrn.cityway.fr/dataflow/horaire-tc-tr/download?provider=TNI&dataFormat=gtfs-rt",
+            "feedId": "fr-astuce-interurbain"
         },
         {
             "type": "vehicle-positions",
-            "frequency": "1m",
-            "url": "https://proxy.transport.data.gouv.fr/resource/astuce-26-30-rouen-gtfs-rt-vehicle-position",
-            "feedId": "fr-astuce-plus"
+            "frequency": "30s",
+            "url": "https://api.mrn.cityway.fr/dataflow/vehicule-tc-tr/download?provider=TNI&dataFormat=gtfs-rt",
+            "feedId": "fr-astuce-interurbain"
         },
 
         {
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
-            "frequency": "2m",
-            "url": "https://gtfs.tae76.fr/gtfs-rt.bin",
+            "frequency": "30s",
+            "url": "https://api.mrn.cityway.fr/dataflow/horaire-tc-tr/download?provider=TAE&dataFormat=gtfs-rt",
             "feedId": "fr-astuce-elbeuf"
         },
 
         {
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
-            "frequency": "2m",
+            "frequency": "30s",
             "url": "https://app.pysae.com/api/v2/groups/transdev-cotentin/gtfs-rt",
             "feedId": "fr-capcotentin"
         },
         {
             "type": "vehicle-positions",
-            "frequency": "1m",
+            "frequency": "30s",
             "url": "https://app.pysae.com/api/v2/groups/transdev-cotentin/gtfs-rt",
             "feedId": "fr-capcotentin"
         },

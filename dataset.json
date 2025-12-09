@@ -549,9 +549,21 @@
     },
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_donnees-statiques-et-temps-reel-du-reseau-astuce-metropole-rouen-normandie.gtfs.zip",
+        "source": "https://api.mrn.cityway.fr/dataflow/offre-tc/download?provider=TCAR&dataFormat=gtfs",
         "feedId": "fr-astuce",
-        "reference": "https://transitous.org/sources/"
+        "reference": "https://myastuce.fr/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.mrn.cityway.fr/dataflow/offre-tc/download?provider=TNI&dataFormat=gtfs",
+        "feedId": "fr-astuce-interurbain",
+        "reference": "https://myastuce.fr/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.mrn.cityway.fr/dataflow/offre-tc/download?provider=TAE&dataFormat=gtfs",
+        "feedId": "fr-astuce-elbeuf",
+        "reference": "https://myastuce.fr/"
     },
     {
         "type": "gtfs",
