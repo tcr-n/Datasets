@@ -462,6 +462,12 @@
             "url": "https://www.reseau-astuce.fr/ftp/gtfsrt/Astuce.VehiclePosition.pb",
             "feedId": "fr-astuce"
         },
+        {
+            "type": "real-time-alerts",
+            "frequency": "30s",
+            "url": "https://gtfs.flocaseih.me/service_alerts_alt.pb",
+            "feedId": "fr-astuce"
+        },
 
         {
             "type": "stop_time_updater",
@@ -476,12 +482,24 @@
             "url": "https://api.mrn.cityway.fr/dataflow/vehicule-tc-tr/download?provider=TNI&dataFormat=gtfs-rt",
             "feedId": "fr-astuce-interurbain"
         },
+        {
+            "type": "real-time-alerts",
+            "frequency": "30s",
+            "url": "https://gtfs.flocaseih.me/service_alerts_alt.pb",
+            "feedId": "fr-astuce-interurbain"
+        },
 
         {
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
             "frequency": "30s",
             "url": "https://api.mrn.cityway.fr/dataflow/horaire-tc-tr/download?provider=TAE&dataFormat=gtfs-rt",
+            "feedId": "fr-astuce-elbeuf"
+        },
+        {
+            "type": "real-time-alerts",
+            "frequency": "30s",
+            "url": "https://gtfs.flocaseih.me/service_alerts_alt.pb",
             "feedId": "fr-astuce-elbeuf"
         },
 
