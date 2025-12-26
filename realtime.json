@@ -723,17 +723,23 @@
         },
 
         {
+            "type": "real-time-alerts",
+            "frequency": "2m",
+            "url": "https://notify.ratpdev.com/api/networks/RD%20QUIMPER/alerts/gtfsrt",
+            "feedId": "fr-qub"
+        },
+        {
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
             "frequency": "2m",
-            "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=quimper",
-            "feedId": "fr-qub-navette"
+            "url": "https://feed-qub-quimper.ratpdev.com/GTFS-RT_tripUpdate/gtfs-rt.bin",
+            "feedId": "fr-qub"
         },
         {
             "type": "vehicle-positions",
             "frequency": "1m",
-            "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=quimper",
-            "feedId": "fr-qub-navette"
+            "url": "https://feed-qub-quimper.ratpdev.com/GTFS-RT_vehiclePosition/gtfs-rt.bin",
+            "feedId": "fr-qub"
         },
 
         {
