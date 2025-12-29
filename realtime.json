@@ -1800,13 +1800,13 @@
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
             "frequency": "2m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_SentetsuBus_AllLines_trip_update?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_SentetsuBus_AllLines_trip_update?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-sentetsu-bus"
         },
         {
             "type": "vehicle-positions",
             "frequency": "1m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_SentetsuBus_AllLines_vehicle?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_SentetsuBus_AllLines_vehicle?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-sentetsu-bus"
         },
 
@@ -1834,19 +1834,19 @@
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
             "frequency": "2m",
-            "url": "https://api-challenge.odpt.org/api/v4/gtfs/realtime/jreast_odpt_train_trip_update?acl:consumerKey=b780a0b0ybfseb8uvykp6xa506tgzyna87zytvdr7ll5jziv3mbf8mvk67dfa7r1",
+            "url": "https://api-challenge.odpt.org/api/v4/gtfs/realtime/jreast_odpt_train_trip_update?acl:consumerKey={{{JP_CHALLENGE_API_KEY}}}",
             "feedId": "jp-jreast-tokyo-area"
         },
         {
             "type": "vehicle-positions",
             "frequency": "1m",
-            "url": "https://api-challenge.odpt.org/api/v4/gtfs/realtime/jreast_odpt_train_vehicle?acl:consumerKey=b780a0b0ybfseb8uvykp6xa506tgzyna87zytvdr7ll5jziv3mbf8mvk67dfa7r1",
+            "url": "https://api-challenge.odpt.org/api/v4/gtfs/realtime/jreast_odpt_train_vehicle?acl:consumerKey={{{JP_CHALLENGE_API_KEY}}}",
             "feedId": "jp-jreast-tokyo-area"
         },
         {
             "type": "real-time-alerts",
             "frequency": "2m",
-            "url": "https://api-challenge.odpt.org/api/v4/gtfs/realtime/jreis_odpt_train_alert?acl:consumerKey=b780a0b0ybfseb8uvykp6xa506tgzyna87zytvdr7ll5jziv3mbf8mvk67dfa7r1",
+            "url": "https://api-challenge.odpt.org/api/v4/gtfs/realtime/jreis_odpt_train_alert?acl:consumerKey={{{JP_CHALLENGE_API_KEY}}}",
             "feedId": "jp-keisei-transit-bus"
         },
 
@@ -1854,19 +1854,19 @@
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
             "frequency": "2m",
-            "url": "https://api-challenge.odpt.org/api/v4/gtfs/realtime/tobu_odpt_train_trip_update?acl:consumerKey=b780a0b0ybfseb8uvykp6xa506tgzyna87zytvdr7ll5jziv3mbf8mvk67dfa7r1",
+            "url": "https://api-challenge.odpt.org/api/v4/gtfs/realtime/tobu_odpt_train_trip_update?acl:consumerKey={{{JP_CHALLENGE_API_KEY}}}",
             "feedId": "jp-tobu-train"
         },
         {
             "type": "vehicle-positions",
             "frequency": "1m",
-            "url": "https://api-challenge.odpt.org/api/v4/gtfs/realtime/tobu_odpt_train_vehicle?acl:consumerKey=b780a0b0ybfseb8uvykp6xa506tgzyna87zytvdr7ll5jziv3mbf8mvk67dfa7r1",
+            "url": "https://api-challenge.odpt.org/api/v4/gtfs/realtime/tobu_odpt_train_vehicle?acl:consumerKey={{{JP_CHALLENGE_API_KEY}}}",
             "feedId": "jp-tobu-train"
         },
         {
             "type": "real-time-alerts",
             "frequency": "2m",
-            "url": "https://api-challenge.odpt.org/api/v4/gtfs/realtime/tobu_odpt_train_alert?acl:consumerKey=b780a0b0ybfseb8uvykp6xa506tgzyna87zytvdr7ll5jziv3mbf8mvk67dfa7r1",
+            "url": "https://api-challenge.odpt.org/api/v4/gtfs/realtime/tobu_odpt_train_alert?acl:consumerKey={{{JP_CHALLENGE_API_KEY}}}",
             "feedId": "jp-tobu-train"
         },
 
@@ -1914,19 +1914,19 @@
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
             "frequency": "2m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_IyotetsuBus_AllLines_trip_update?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_IyotetsuBus_AllLines_trip_update?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-iyotetsu-bus"
         },
         {
             "type": "vehicle-positions",
             "frequency": "1m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_IyotetsuBus_AllLines_vehicle?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_IyotetsuBus_AllLines_vehicle?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-iyotetsu-bus"
         },
         {
             "type": "real-time-alerts",
             "frequency": "2m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_IyotetsuBus_AllLines_alert?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_IyotetsuBus_AllLines_alert?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-iyotetsu-bus"
         },
 
@@ -1934,19 +1934,19 @@
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
             "frequency": "2m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/YokohamaMunicipalBus_trip_update?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/YokohamaMunicipalBus_trip_update?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-yokohama-municipal-bus"
         },
         {
             "type": "vehicle-positions",
             "frequency": "1m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/YokohamaMunicipalBus_vehicle?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/YokohamaMunicipalBus_vehicle?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-yokohama-municipal-bus"
         },
         {
             "type": "real-time-alerts",
             "frequency": "2m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/YokohamaMunicipalBus_alert?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/YokohamaMunicipalBus_alert?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-yokohama-municipal-bus"
         },
 
@@ -1954,19 +1954,19 @@
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
             "frequency": "2m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/YokohamaMunicipalTrain_trip_update?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/YokohamaMunicipalTrain_trip_update?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-yokohama-municipal-train"
         },
         {
             "type": "vehicle-positions",
             "frequency": "1m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/YokohamaMunicipalTrain_vehicle?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/YokohamaMunicipalTrain_vehicle?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-yokohama-municipal-train"
         },
         {
             "type": "real-time-alerts",
             "frequency": "2m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/YokohamaMunicipalTrain_alert?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/YokohamaMunicipalTrain_alert?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-yokohama-municipal-train"
         },
 
@@ -2054,19 +2054,19 @@
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
             "frequency": "2m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KawasakiTsurumiRinkoBus_allrinko_trip_update?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KawasakiTsurumiRinkoBus_allrinko_trip_update?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-kawasaki-tsurumi-rinko-bus-allrinko"
         },
         {
             "type": "vehicle-positions",
             "frequency": "1m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KawasakiTsurumiRinkoBus_allrinko_vehicle?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KawasakiTsurumiRinkoBus_allrinko_vehicle?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-kawasaki-tsurumi-rinko-bus-allrinko"
         },
         {
             "type": "real-time-alerts",
             "frequency": "2m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KawasakiTsurumiRinkoBus_allrinko_alert?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KawasakiTsurumiRinkoBus_allrinko_alert?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-kawasaki-tsurumi-rinko-bus-allrinko"
         },
 
@@ -2108,13 +2108,13 @@
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
             "frequency": "2m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_AkihaBusService_AllLines_trip_update?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_AkihaBusService_AllLines_trip_update?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-akiha-bus-service"
         },
         {
             "type": "vehicle-positions",
             "frequency": "1m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_AkihaBusService_AllLines_vehicle?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_AkihaBusService_AllLines_vehicle?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-akiha-bus-service"
         },
 
@@ -2122,19 +2122,19 @@
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
             "frequency": "2m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_Shimoden_Shimoden_BUS_GTFS_Realtime_trip_update?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_Shimoden_Shimoden_BUS_GTFS_Realtime_trip_update?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-shimoden-shimoden-bus-gtfs-realtime"
         },
         {
             "type": "vehicle-positions",
             "frequency": "1m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_Shimoden_Shimoden_BUS_GTFS_Realtime_vehicle?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_Shimoden_Shimoden_BUS_GTFS_Realtime_vehicle?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-shimoden-shimoden-bus-gtfs-realtime"
         },
         {
             "type": "real-time-alerts",
             "frequency": "2m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_Shimoden_Shimoden_BUS_GTFS_Realtime_alert?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_Shimoden_Shimoden_BUS_GTFS_Realtime_alert?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-shimoden-shimoden-bus-gtfs-realtime"
         },
 
@@ -2142,19 +2142,19 @@
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
             "frequency": "2m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_Shimoden_Shimoden_BUS_GTFS_Realtime_trip_update?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_Shimoden_Shimoden_BUS_GTFS_Realtime_trip_update?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-shimoden-shimoden-gtfs-static"
         },
         {
             "type": "vehicle-positions",
             "frequency": "1m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_Shimoden_Shimoden_BUS_GTFS_Realtime_vehicle?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_Shimoden_Shimoden_BUS_GTFS_Realtime_vehicle?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-shimoden-shimoden-gtfs-static"
         },
         {
             "type": "real-time-alerts",
             "frequency": "2m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_Shimoden_Shimoden_BUS_GTFS_Realtime_alert?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_Shimoden_Shimoden_BUS_GTFS_Realtime_alert?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-shimoden-shimoden-gtfs-static"
         },
 
@@ -2182,19 +2182,19 @@
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
             "frequency": "2m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KyotoBus_AllLinesAnotherversion_trip_update?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KyotoBus_AllLinesAnotherversion_trip_update?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-kyoto-bus-anotherversion"
         },
         {
             "type": "vehicle-positions",
             "frequency": "1m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KyotoBus_AllLinesAnotherversion_vehicle?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KyotoBus_AllLinesAnotherversion_vehicle?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-kyoto-bus-anotherversion"
         },
         {
             "type": "real-time-alerts",
             "frequency": "2m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KyotoBus_AllLinesAnotherversion_alert?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KyotoBus_AllLinesAnotherversion_alert?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-kyoto-bus-anotherversion"
         },
 
@@ -2202,19 +2202,19 @@
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
             "frequency": "2m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_NishiTokyoBus_NTBus_trip_update?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_NishiTokyoBus_NTBus_trip_update?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-nishi-tokyo-bus-nt-bus"
         },
         {
             "type": "vehicle-positions",
             "frequency": "1m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_NishiTokyoBus_NTBus_vehicle?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_NishiTokyoBus_NTBus_vehicle?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-nishi-tokyo-bus-nt-bus"
         },
         {
             "type": "real-time-alerts",
             "frequency": "2m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_NishiTokyoBus_NTBus_alert?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_NishiTokyoBus_NTBus_alert?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-nishi-tokyo-bus-nt-bus"
         },
 
@@ -2222,19 +2222,19 @@
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
             "frequency": "2m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KyotoBus_AllLines_trip_update?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KyotoBus_AllLines_trip_update?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-kyoto-bus"
         },
         {
             "type": "vehicle-positions",
             "frequency": "1m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KyotoBus_AllLines_vehicle?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KyotoBus_AllLines_vehicle?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-kyoto-bus"
         },
         {
             "type": "real-time-alerts",
             "frequency": "2m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KyotoBus_AllLines_alert?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KyotoBus_AllLines_alert?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-kyoto-bus"
         },
 
@@ -2242,19 +2242,19 @@
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
             "frequency": "2m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_IzuhakoneBus_IZHB_trip_update?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_IzuhakoneBus_IZHB_trip_update?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-izuhakone-bus-izhb"
         },
         {
             "type": "vehicle-positions",
             "frequency": "1m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_IzuhakoneBus_IZHB_vehicle?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_IzuhakoneBus_IZHB_vehicle?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-izuhakone-bus-izhb"
         },
         {
             "type": "real-time-alerts",
             "frequency": "2m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_IzuhakoneBus_IZHB_alert?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_IzuhakoneBus_IZHB_alert?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-izuhakone-bus-izhb"
         },
 
@@ -2262,41 +2262,41 @@
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
             "frequency": "2m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_HokkaidoTakushokuBus_Takusyoku_regular_line_trip_update?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_HokkaidoTakushokuBus_Takusyoku_regular_line_trip_update?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-hokkaido-takushoku-bus-takusyoku-regular-line"
         },
         {
             "type": "vehicle-positions",
             "frequency": "1m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_HokkaidoTakushokuBus_Takusyoku_regular_line_vehicle?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_HokkaidoTakushokuBus_Takusyoku_regular_line_vehicle?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-hokkaido-takushoku-bus-takusyoku-regular-line"
         },
 
         {
             "type": "real-time-alerts",
             "frequency": "2m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/mir_odpt_train_alert?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/mir_odpt_train_alert?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-train-mir"
         },
 
         {
             "type": "real-time-alerts",
             "frequency": "2m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/tamamonorail_odpt_train_alert?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/tamamonorail_odpt_train_alert?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-train-tamamonorail"
         },
 
         {
             "type": "real-time-alerts",
             "frequency": "2m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/tokyometro_odpt_train_alert?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/tokyometro_odpt_train_alert?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-train-tokyometro"
         },
 
         {
             "type": "real-time-alerts",
             "frequency": "2m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/twr_odpt_train_alert?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/twr_odpt_train_alert?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-train-twr"
         },
 
@@ -2330,7 +2330,7 @@
         {
             "type": "real-time-alerts",
             "frequency": "2m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_TokaiKisen_AllLines_alert?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_TokaiKisen_AllLines_alert?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-tokai-kisen"
         },
 
@@ -2338,19 +2338,19 @@
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
             "frequency": "2m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KantoBus_AllLines_trip_update?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KantoBus_AllLines_trip_update?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-kanto-bus"
         },
         {
             "type": "vehicle-positions",
             "frequency": "1m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KantoBus_AllLines_vehicle?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KantoBus_AllLines_vehicle?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-kanto-bus"
         },
         {
             "type": "real-time-alerts",
             "frequency": "2m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KantoBus_AllLines_alert?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KantoBus_AllLines_alert?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-kanto-bus"
         },
 
@@ -2358,13 +2358,13 @@
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
             "frequency": "2m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/SeibuBus_trip_update?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/SeibuBus_trip_update?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-seibu-bus--b-bus-gtfs"
         },
         {
             "type": "vehicle-positions",
             "frequency": "1m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/SeibuBus_vehicle?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/SeibuBus_vehicle?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-seibu-bus--b-bus-gtfs"
         },
 
@@ -2406,19 +2406,19 @@
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
             "frequency": "2m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_TransportationBureau_CityOfKawasaki_AllLines_trip_update?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_TransportationBureau_CityOfKawasaki_AllLines_trip_update?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-transportation-bureau-city-of-kawasaki"
         },
         {
             "type": "vehicle-positions",
             "frequency": "1m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_TransportationBureau_CityOfKawasaki_AllLines_vehicle?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_TransportationBureau_CityOfKawasaki_AllLines_vehicle?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-transportation-bureau-city-of-kawasaki"
         },
         {
             "type": "real-time-alerts",
             "frequency": "2m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_TransportationBureau_CityOfKawasaki_AllLines_alert?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_TransportationBureau_CityOfKawasaki_AllLines_alert?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-transportation-bureau-city-of-kawasaki"
         },
 
@@ -2426,13 +2426,13 @@
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
             "frequency": "2m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KeioBus_AllLines_trip_update?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KeioBus_AllLines_trip_update?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-keio-bus"
         },
         {
             "type": "vehicle-positions",
             "frequency": "1m",
-            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KeioBus_AllLines_vehicle?acl:consumerKey=2c75f0b407f0780fff88acbe0da7c6bf136f1bf6d64991d5d68a97ff47f37ed2",
+            "url": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KeioBus_AllLines_vehicle?acl:consumerKey={{{JP_API_KEY}}}",
             "feedId": "jp-keio-bus"
         }
     ],

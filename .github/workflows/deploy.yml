@@ -27,6 +27,9 @@ jobs:
         uses: actions/checkout@v6
 
       - name: Check Realtime feeds
+        env:
+          JP_API_KEY: ${{ secrets.JP_API_KEY }}
+          JP_CHALLENGE_API_KEY: ${{ secrets.JP_CHALLENGE_API_KEY }}
         run: python .github/scripts/check_realtime_feeds.py
 
   deploy:
@@ -36,6 +39,14 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
+
+      - name: Replace API keys in realtime.json
+        env:
+          JP_API_KEY: ${{ secrets.JP_API_KEY }}
+          JP_CHALLENGE_API_KEY: ${{ secrets.JP_CHALLENGE_API_KEY }}
+        run: |
+          sed -i "s/{{{JP_API_KEY}}}/$JP_API_KEY/g" realtime.json
+          sed -i "s/{{{JP_CHALLENGE_API_KEY}}}/$JP_CHALLENGE_API_KEY/g" realtime.json
 
       - name: Set up SSH key
         uses: webfactory/ssh-agent@v0.9.0

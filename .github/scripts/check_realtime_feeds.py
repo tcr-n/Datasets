@@ -7,6 +7,7 @@ Validates all realtime feed sources from realtime.json to ensure they are access
 import json
 import sys
 import time
+import os
 from pathlib import Path
 from typing import Dict, List, Tuple
 from urllib.parse import urlparse
@@ -35,7 +36,16 @@ def load_realtime_data(file_path: str = "realtime.json") -> Dict:
     """Load and parse the realtime.json file"""
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
-            return json.load(f)
+            content = f.read()
+            
+        # Replace API key placeholders with environment variables
+        jp_api_key = os.environ.get('JP_API_KEY', '')
+        jp_challenge_api_key = os.environ.get('JP_CHALLENGE_API_KEY', '')
+        
+        content = content.replace('{{{JP_API_KEY}}}', jp_api_key)
+        content = content.replace('{{{JP_CHALLENGE_API_KEY}}}', jp_challenge_api_key)
+        
+        return json.loads(content)
     except FileNotFoundError:
         print(f"{Colors.RED}Error: {file_path} not found{Colors.RESET}")
         sys.exit(1)
