@@ -87,7 +87,7 @@
     },
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_localisation-des-arrets-ilevia-bus-metro-et-tram-gtfs-pictogrammes-du-reseau-ilevia-2.gtfs.zip",
+        "source": "https://api.transitous.org/gtfs/fr_ilevia-localisation-des-arrets-bus-metro-et-tram-gtfs.gtfs.zip",
         "feedId": "fr-ilevia",
         "reference": "https://transitous.org/sources/"
     },
@@ -627,7 +627,7 @@
     },
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_amibus-intercom-de-la-vire-au-noireau.gtfs.zip",
+        "source": "https://api.transitous.org/gtfs/fr_tiva-intercom-de-la-vire-au-noireau.gtfs.zip",
         "feedId": "fr-amibus",
         "reference": "https://transitous.org/sources/"
     },
@@ -721,7 +721,7 @@
     },
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_breizhgo-car--81465.gtfs.zip",
+        "source": "https://api.transitous.org/gtfs/fr_breizhgo-car--83728.gtfs.zip",
         "feedId": "fr-breitzgo-car-nord-sud",
         "reference": "https://transitous.org/sources/"
     },
@@ -781,7 +781,7 @@
     },
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_horaires-theoriques-et-temps-reel-du-reseau-quimper-bretagne-occidentale-qub-city-gtfs-gtfs-rt.gtfs.zip",
+        "source": "https://api.transitous.org/gtfs/fr_horaires-theoriques-et-du-reseau-de-transports-qub-transports-urbains-de-quimper-bretagne-occidentale.gtfs.zip",
         "feedId": "fr-qub",
         "reference": "https://transitous.org/sources/"
     },
@@ -856,7 +856,7 @@
 
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_horaires-des-bacs-de-loire-en-loire-atlantique-gtfs.gtfs.zip",
+        "source": "https://api.transitous.org/gtfs/fr_horaires-des-bacs-de-loire-en-loire-atlantique-gtfs--83727.gtfs.zip",
         "feedId": "fr-bacs-de-loire",
         "reference": "https://transitous.org/sources/"
     },
@@ -910,7 +910,7 @@
     },
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_lignes-arrets-et-horaires-de-transport-pour-cap-atlantique-lila-presquile-gtfs.gtfs.zip",
+        "source": "https://api.transitous.org/gtfs/fr_reseau-urbain-scolaire-lila-presquile.gtfs.zip",
         "feedId": "fr-lila",
         "reference": "https://transitous.org/sources/"
     },
@@ -973,7 +973,7 @@
     },
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_gtfs-et-gtfs-rt-reseau-tao-orleans-metropole-1.gtfs.zip",
+        "source": "https://api.transitous.org/gtfs/fr_gtfs-netex-et-gtfs-rt-reseau-tao-orleans-metropole.gtfs.zip",
         "feedId": "fr-tao",
         "reference": "https://transitous.org/sources/"
     },
@@ -1084,7 +1084,7 @@
     },
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_offre-de-transport-du-reseau-trema-gtfs--83125.gtfs.zip",
+        "source": "https://api.transitous.org/gtfs/fr_offre-de-transport-du-reseau-trema-gtfs.gtfs.zip",
         "feedId": "fr-trema",
         "reference": "https://transitous.org/sources/"
     },
@@ -1795,13 +1795,7 @@
     },
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_gtfs-reseau-transport-urbain-coqueligo--82906.gtfs.zip",
-        "feedId": "fr-coqueligo-sco",
-        "reference": "https://transitous.org/sources/"
-    },
-    {
-        "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_gtfs-reseau-transport-urbain-coqueligo--82905.gtfs.zip",
+        "source": "https://api.transitous.org/gtfs/fr_gtfs-transports-a-la-demande-tad-coqueligo.gtfs.zip",
         "feedId": "fr-coqueligo",
         "reference": "https://transitous.org/sources/"
     },
