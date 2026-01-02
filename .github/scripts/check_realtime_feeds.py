@@ -8,6 +8,7 @@ import json
 import sys
 import time
 import os
+import argparse
 from pathlib import Path
 from typing import Dict, List, Tuple
 from urllib.parse import urlparse
@@ -32,18 +33,19 @@ class Colors:
     BOLD = '\033[1m'
 
 
-def load_realtime_data(file_path: str = "realtime.json") -> Dict:
+def load_realtime_data(file_path: str = "realtime.json", skip_api_keys: bool = False) -> Dict:
     """Load and parse the realtime.json file"""
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
             content = f.read()
             
         # Replace API key placeholders with environment variables
-        jp_api_key = os.environ.get('JP_API_KEY', '')
-        jp_challenge_api_key = os.environ.get('JP_CHALLENGE_API_KEY', '')
-        
-        content = content.replace('{{{JP_API_KEY}}}', jp_api_key)
-        content = content.replace('{{{JP_CHALLENGE_API_KEY}}}', jp_challenge_api_key)
+        if not skip_api_keys:
+            jp_api_key = os.environ.get('JP_API_KEY', '')
+            jp_challenge_api_key = os.environ.get('JP_CHALLENGE_API_KEY', '')
+            
+            content = content.replace('{{{JP_API_KEY}}}', jp_api_key)
+            content = content.replace('{{{JP_CHALLENGE_API_KEY}}}', jp_challenge_api_key)
         
         return json.loads(content)
     except FileNotFoundError:
@@ -137,6 +139,12 @@ def check_url(url: str, retries: int = MAX_RETRIES) -> Tuple[bool, str, int]:
     return False, "Max retries exceeded", 0
 
 
+def has_api_key_placeholder(url: str) -> bool:
+    """Check if URL contains API key placeholders"""
+    placeholders = ['{{{JP_API_KEY}}}', '{{{JP_CHALLENGE_API_KEY}}}']
+    return any(placeholder in url for placeholder in placeholders)
+
+
 def validate_updater_structure(updater: Dict, index: int) -> Tuple[bool, List[str]]:
     """
     Validate that an updater entry has the required structure.
@@ -175,7 +183,7 @@ def validate_updater_structure(updater: Dict, index: int) -> Tuple[bool, List[st
     return len(errors) == 0, errors
 
 
-def check_updater(updater: Dict, index: int, total: int) -> Dict:
+def check_updater(updater: Dict, index: int, total: int, skip_api_keys: bool = False) -> Dict:
     """
     Check a single realtime updater (structure validation + URL check).
     Returns a dict with results.
@@ -193,7 +201,8 @@ def check_updater(updater: Dict, index: int, total: int) -> Dict:
         'structure_errors': [],
         'url_success': False,
         'url_message': '',
-        'status_code': 0
+        'status_code': 0,
+        'skipped': False
     }
     
     # Validate structure
@@ -202,6 +211,13 @@ def check_updater(updater: Dict, index: int, total: int) -> Dict:
     result['structure_errors'] = errors
     
     if not is_valid:
+        return result
+    
+    # Skip URLs with API key placeholders if requested
+    if skip_api_keys and has_api_key_placeholder(url):
+        result['skipped'] = True
+        result['url_success'] = True
+        result['url_message'] = 'Skipped (requires API key)'
         return result
     
     # Check URL accessibility
@@ -215,13 +231,22 @@ def check_updater(updater: Dict, index: int, total: int) -> Dict:
 
 def main():
     """Main execution function"""
+    # Parse command line arguments
+    parser = argparse.ArgumentParser(description='Check realtime feed accessibility')
+    parser.add_argument('--skip-api-keys', action='store_true',
+                       help='Skip checking URLs that require API keys')
+    args = parser.parse_args()
+    
     print(f"{Colors.BOLD}{'='*70}{Colors.RESET}")
     print(f"{Colors.BOLD}Realtime Feed Checker{Colors.RESET}")
     print(f"{Colors.BOLD}{'='*70}{Colors.RESET}\n")
     
+    if args.skip_api_keys:
+        print(f"{Colors.YELLOW}Mode: Skipping URLs with API key requirements{Colors.RESET}\n")
+    
     # Load realtime data
     print(f"{Colors.BLUE}Loading realtime.json...{Colors.RESET}")
-    realtime_data = load_realtime_data()
+    realtime_data = load_realtime_data(skip_api_keys=args.skip_api_keys)
     
     if 'updaters' not in realtime_data:
         print(f"{Colors.RED}Error: No 'updaters' field found in realtime.json{Colors.RESET}")
@@ -235,6 +260,7 @@ def main():
     structure_errors = 0
     successful = 0
     failed = 0
+    skipped = 0
     failed_updaters = []
     
     # Check updaters concurrently
@@ -247,7 +273,7 @@ def main():
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         # Submit all tasks
         future_to_updater = {
-            executor.submit(check_updater, updater, index, total): (updater, index) 
+            executor.submit(check_updater, updater, index, total, args.skip_api_keys): (updater, index) 
             for index, updater in enumerate(updaters, 1)
         }
         
@@ -284,6 +310,9 @@ def main():
                 'url': result['url'],
                 'error': '; '.join(result['structure_errors'])
             })
+        elif result.get('skipped', False):
+            skipped += 1
+            print(f"  {Colors.YELLOW}⊘ {result['url_message']}{Colors.RESET}")
         elif result['url_success']:
             successful += 1
             print(f"  {Colors.GREEN}✓ {result['url_message']}{Colors.RESET}")
@@ -307,10 +336,12 @@ def main():
     print(f"Total updaters:       {total}")
     print(f"{Colors.GREEN}Successful:           {successful}{Colors.RESET}")
     print(f"{Colors.RED}Failed:               {failed}{Colors.RESET}")
+    print(f"{Colors.YELLOW}Skipped:              {skipped}{Colors.RESET}")
     print(f"{Colors.YELLOW}Structure errors:     {structure_errors}{Colors.RESET}")
     
-    success_rate = (successful / total * 100) if total > 0 else 0
-    print(f"\nSuccess rate:         {success_rate:.1f}%")
+    checked = total - skipped
+    success_rate = (successful / checked * 100) if checked > 0 else 0
+    print(f"\nSuccess rate:         {success_rate:.1f}% ({successful}/{checked} checked)")
     
     # List failed updaters
     if failed_updaters:

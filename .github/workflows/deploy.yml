@@ -30,7 +30,12 @@ jobs:
         env:
           JP_API_KEY: ${{ secrets.JP_API_KEY }}
           JP_CHALLENGE_API_KEY: ${{ secrets.JP_CHALLENGE_API_KEY }}
-        run: python .github/scripts/check_realtime_feeds.py
+        run: |
+          if [ "${{ github.event_name }}" == "pull_request" ]; then
+            python .github/scripts/check_realtime_feeds.py --skip-api-keys
+          else
+            python .github/scripts/check_realtime_feeds.py
+          fi
 
   deploy:
     if: github.ref == 'refs/heads/main'
