@@ -549,21 +549,9 @@
     },
     {
         "type": "gtfs",
-        "source": "https://api.mrn.cityway.fr/dataflow/offre-tc/download?provider=ASTUCE&dataFormat=gtfs",
+        "source": "https://api.mrn.cityway.fr/dataflow/offre-tc/download?provider=ASTUCE&dataFormat=gtfs&dataProfil=ASTUCE",
         "feedId": "fr-astuce",
-        "reference": "https://myastuce.fr/"
-    },
-    {
-        "type": "gtfs",
-        "source": "https://api.mrn.cityway.fr/dataflow/offre-tc/download?provider=TNI&dataFormat=gtfs",
-        "feedId": "fr-astuce-interurbain",
-        "reference": "https://myastuce.fr/"
-    },
-    {
-        "type": "gtfs",
-        "source": "https://api.mrn.cityway.fr/dataflow/offre-tc/download?provider=TAE&dataFormat=gtfs",
-        "feedId": "fr-astuce-elbeuf",
-        "reference": "https://myastuce.fr/"
+        "reference": "https://myastuce.fr"
     },
     {
         "type": "gtfs",
