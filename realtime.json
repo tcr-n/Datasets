@@ -1294,22 +1294,42 @@
 
         {
             "type": "real-time-alerts",
-            "frequency": "2m",
+            "frequency": "30s",
             "url": "https://data.montpellier3m.fr/GTFS/Urbain/Alert.pb",
             "feedId": "fr-tam"
         },
         {
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
-            "frequency": "2m",
+            "frequency": "30s",
             "url": "https://data.montpellier3m.fr/GTFS/Urbain/TripUpdate.pb",
             "feedId": "fr-tam"
         },
         {
             "type": "vehicle-positions",
-            "frequency": "1m",
+            "frequency": "30s",
             "url": "https://data.montpellier3m.fr/GTFS/Urbain/VehiclePosition.pb",
             "feedId": "fr-tam"
+        },
+
+        {
+            "type": "real-time-alerts",
+            "frequency": "30s",
+            "url": "https://data.montpellier3m.fr/GTFS/Suburbain/Alert.pb",
+            "feedId": "fr-tam-sub"
+        },
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "30s",
+            "url": "https://data.montpellier3m.fr/GTFS/Suburbain/TripUpdate.pb",
+            "feedId": "fr-tam-sub"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "30s",
+            "url": "https://data.montpellier3m.fr/GTFS/Suburbain/VehiclePosition.pb",
+            "feedId": "fr-tam-sub"
         },
 
         {

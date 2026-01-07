@@ -1426,9 +1426,15 @@
     },
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_offre-de-transport-de-montpellier-mediterranee-metropole-tam-gtfs.gtfs.zip",
+        "source": "https://data.montpellier3m.fr/GTFS/Urbain/GTFS.zip",
         "feedId": "fr-tam",
-        "reference": "https://transitous.org/sources/"
+        "reference": "https://transport.data.gouv.fr/datasets/offre-de-transport-tam-en-temps-reel-gtfs-rt-urbain-et-suburbain"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://data.montpellier3m.fr/GTFS/Suburbain/GTFS.zip",
+        "feedId": "fr-tam-sub",
+        "reference": "https://transport.data.gouv.fr/datasets/offre-de-transport-tam-en-temps-reel-gtfs-rt-urbain-et-suburbain"
     },
     {
         "type": "gtfs",
