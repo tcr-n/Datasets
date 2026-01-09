@@ -58,6 +58,19 @@
         },
 
         {
+            "type": "stop_time_updater",
+            "frequency": "5s",
+            "url": "https://api.tisseo.fr/opendata/gtfsrt/GtfsRt.pb",
+            "feedId": "fr-tisseo"
+        },
+        {
+            "type": "real-time-alerts",
+            "frequency": "5s",
+            "url": "https://api.tisseo.fr/opendata/gtfsrt/Alert.pb",
+            "feedId": "fr-tisseo"
+        },
+
+        {
             "type": "real-time-alerts",
             "frequency": "2m",
             "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=sitac-calais-rt",
@@ -440,60 +453,44 @@
             "feedId": "fr-rezo"
         },
 
-
-
-        {
-            "type": "stop_time_updater",
-            "fuzzyTripMatching": true,
-            "frequency": "30s",
-            "url": "https://www.reseau-astuce.fr/ftp/gtfsrt/Astuce.TripUpdate.pb",
-            "feedId": "fr-astuce"
-        },
-        {
-            "type": "vehicle-positions",
-            "frequency": "30s",
-            "url": "https://www.reseau-astuce.fr/ftp/gtfsrt/Astuce.VehiclePosition.pb",
-            "feedId": "fr-astuce"
-        },
-        {
-            "type": "real-time-alerts",
-            "frequency": "30s",
-            "url": "https://gtfs.flocaseih.me/service_alerts_alt.pb",
-            "feedId": "fr-astuce"
-        },
-
         {
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
             "frequency": "30s",
             "url": "https://api.mrn.cityway.fr/dataflow/horaire-tc-tr/download?provider=TNI&dataFormat=gtfs-rt",
-            "feedId": "fr-astuce-interurbain"
+            "feedId": "fr-astuce"
+        },
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "30s",
+            "url": "https://api.mrn.cityway.fr/dataflow/horaire-tc-tr/download?provider=TCAR&dataFormat=gtfs-rt",
+            "feedId": "fr-astuce"
+        },
+        {   
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "30s",
+            "url": "https://api.mrn.cityway.fr/dataflow/horaire-tc-tr/download?provider=TAE&dataFormat=gtfs-rt",
+            "feedId": "fr-astuce"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "30s",
+            "url": "https://api.mrn.cityway.fr/dataflow/vehicle-tc-tr/download?provider=TCAR&dataFormat=gtfs-rt",
+            "feedId": "fr-astuce"
         },
         {
             "type": "vehicle-positions",
             "frequency": "30s",
             "url": "https://api.mrn.cityway.fr/dataflow/vehicule-tc-tr/download?provider=TNI&dataFormat=gtfs-rt",
-            "feedId": "fr-astuce-interurbain"
+            "feedId": "fr-astuce"
         },
         {
             "type": "real-time-alerts",
-            "frequency": "30s",
-            "url": "https://gtfs.flocaseih.me/service_alerts_alt.pb",
-            "feedId": "fr-astuce-interurbain"
-        },
-
-        {
-            "type": "stop_time_updater",
-            "fuzzyTripMatching": true,
-            "frequency": "30s",
-            "url": "https://api.mrn.cityway.fr/dataflow/horaire-tc-tr/download?provider=TAE&dataFormat=gtfs-rt",
-            "feedId": "fr-astuce-elbeuf"
-        },
-        {
-            "type": "real-time-alerts",
-            "frequency": "30s",
-            "url": "https://gtfs.flocaseih.me/service_alerts_alt.pb",
-            "feedId": "fr-astuce-elbeuf"
+            "frequency": "5m",
+            "url": "https://gtfs.flocaseih.me/service_alerts.pb",
+            "feedId": "fr-astuce"
         },
 
         {
