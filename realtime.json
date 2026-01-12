@@ -497,33 +497,33 @@
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
             "frequency": "30s",
-            "url": "https://app.pysae.com/api/v2/groups/transdev-cotentin/gtfs-rt",
+            "url": "https://app.pysae.com/api/v4/groups/transdev-cotentin/gtfs-rt",
             "feedId": "fr-capcotentin"
         },
         {
             "type": "vehicle-positions",
             "frequency": "30s",
-            "url": "https://app.pysae.com/api/v2/groups/transdev-cotentin/gtfs-rt",
+            "url": "https://app.pysae.com/api/v4/groups/transdev-cotentin/gtfs-rt",
             "feedId": "fr-capcotentin"
         },
 
         {
             "type": "real-time-alerts",
             "frequency": "2m",
-            "url": "https://app.pysae.com/api/v2/groups/caux-seine-agglo/gtfs-rt",
+            "url": "https://app.pysae.com/api/v4/groups/caux-seine-agglo/gtfs-rt",
             "feedId": "fr-rezobus"
         },
         {
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
             "frequency": "2m",
-            "url": "https://app.pysae.com/api/v2/groups/caux-seine-agglo/gtfs-rt",
+            "url": "https://app.pysae.com/api/v4/groups/caux-seine-agglo/gtfs-rt",
             "feedId": "fr-rezobus"
         },
         {
             "type": "vehicle-positions",
             "frequency": "1m",
-            "url": "https://app.pysae.com/api/v2/groups/caux-seine-agglo/gtfs-rt",
+            "url": "https://app.pysae.com/api/v4/groups/caux-seine-agglo/gtfs-rt",
             "feedId": "fr-rezobuss"
         },
 
@@ -792,20 +792,20 @@
         {
             "type": "real-time-alerts",
             "frequency": "2m",
-            "url": "https://app.pysae.com/api/v2/groups/quimperle/gtfs-rt",
+            "url": "https://app.pysae.com/api/v4/groups/quimperle/gtfs-rt",
             "feedId": "fr-tbk"
         },
         {
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
             "frequency": "2m",
-            "url": "https://app.pysae.com/api/v2/groups/quimperle/gtfs-rt",
+            "url": "https://app.pysae.com/api/v4/groups/quimperle/gtfs-rt",
             "feedId": "fr-tbk"
         },
         {
             "type": "vehicle-positions",
             "frequency": "1m",
-            "url": "https://app.pysae.com/api/v2/groups/quimperle/gtfs-rt",
+            "url": "https://app.pysae.com/api/v4/groups/quimperle/gtfs-rt",
             "feedId": "fr-tbk"
         },
 
@@ -820,20 +820,20 @@
         {
             "type": "real-time-alerts",
             "frequency": "2m",
-            "url": "https://app.pysae.com/api/v2/groups/pondibus/gtfs-rt",
+            "url": "https://app.pysae.com/api/v4/groups/pondibus/gtfs-rt",
             "feedId": "fr-pondibus"
         },
         {
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
             "frequency": "2m",
-            "url": "https://app.pysae.com/api/v2/groups/pondibus/gtfs-rt",
+            "url": "https://app.pysae.com/api/v4/groups/pondibus/gtfs-rt",
             "feedId": "fr-pondibus"
         },
         {
             "type": "vehicle-positions",
             "frequency": "1m",
-            "url": "https://app.pysae.com/api/v2/groups/pondibus/gtfs-rt",
+            "url": "https://app.pysae.com/api/v4/groups/pondibus/gtfs-rt",
             "feedId": "fr-pondibus"
         },
 
@@ -889,13 +889,13 @@
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
             "frequency": "2m",
-            "url": "https://app.pysae.com/api/v2/groups/illygo/gtfs-rt",
+            "url": "https://app.pysae.com/api/v4/groups/illygo/gtfs-rt",
             "feedId": "fr-illygo"
         },
         {
             "type": "vehicle-positions",
             "frequency": "1m",
-            "url": "https://app.pysae.com/api/v2/groups/illygo/gtfs-rt",
+            "url": "https://app.pysae.com/api/v4/groups/illygo/gtfs-rt",
             "feedId": "fr-illygo"
         },
 
@@ -943,40 +943,40 @@
         {
             "type": "real-time-alerts",
             "frequency": "2m",
-            "url": "https://app.pysae.com/api/v2/groups/transdev-8z2Q/gtfs-rt",
+            "url": "https://app.pysae.com/api/v4/groups/transdev-8z2Q/gtfs-rt",
             "feedId": "fr-reso"
         },
         {
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
             "frequency": "2m",
-            "url": "https://app.pysae.com/api/v2/groups/transdev-8z2Q/gtfs-rt",
+            "url": "https://app.pysae.com/api/v4/groups/transdev-8z2Q/gtfs-rt",
             "feedId": "fr-reso"
         },
         {
             "type": "vehicle-positions",
             "frequency": "1m",
-            "url": "https://app.pysae.com/api/v2/groups/transdev-8z2Q/gtfs-rt",
+            "url": "https://app.pysae.com/api/v4/groups/transdev-8z2Q/gtfs-rt",
             "feedId": "fr-reso"
         },
 
         {
             "type": "real-time-alerts",
             "frequency": "2m",
-            "url": "https://app.pysae.com/api/v2/groups/brevibus/gtfs-rt",
+            "url": "https://app.pysae.com/api/v4/groups/brevibus/gtfs-rt",
             "feedId": "fr-brevibus"
         },
         {
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
             "frequency": "2m",
-            "url": "https://app.pysae.com/api/v2/groups/brevibus/gtfs-rt",
+            "url": "https://app.pysae.com/api/v4/groups/brevibus/gtfs-rt",
             "feedId": "fr-brevibus"
         },
         {
             "type": "vehicle-positions",
             "frequency": "1m",
-            "url": "https://app.pysae.com/api/v2/groups/brevibus/gtfs-rt",
+            "url": "https://app.pysae.com/api/v4/groups/brevibus/gtfs-rt",
             "feedId": "fr-brevibus"
         },
 
@@ -1011,20 +1011,20 @@
         {
             "type": "real-time-alerts",
             "frequency": "2m",
-            "url": "https://app.pysae.com/api/v2/groups/vendome/gtfs-rt",
+            "url": "https://app.pysae.com/api/v4/groups/vendome/gtfs-rt",
             "feedId": "fr-move"
         },
         {
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
             "frequency": "2m",
-            "url": "https://app.pysae.com/api/v2/groups/vendome/gtfs-rt",
+            "url": "https://app.pysae.com/api/v4/groups/vendome/gtfs-rt",
             "feedId": "fr-move"
         },
         {
             "type": "vehicle-positions",
             "frequency": "1m",
-            "url": "https://app.pysae.com/api/v2/groups/vendome/gtfs-rt",
+            "url": "https://app.pysae.com/api/v4/groups/vendome/gtfs-rt",
             "feedId": "fr-move"
         },
 
@@ -1051,20 +1051,20 @@
         {
             "type": "real-time-alerts",
             "frequency": "2m",
-            "url": "https://app.pysae.com/api/v2/groups/nosbus/gtfs-rt",
+            "url": "https://app.pysae.com/api/v4/groups/nosbus/gtfs-rt",
             "feedId": "fr-nosbus"
         },
         {
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
             "frequency": "2m",
-            "url": "https://app.pysae.com/api/v2/groups/nosbus/gtfs-rt",
+            "url": "https://app.pysae.com/api/v4/groups/nosbus/gtfs-rt",
             "feedId": "fr-nosbus"
         },
         {
             "type": "vehicle-positions",
             "frequency": "1m",
-            "url": "https://app.pysae.com/api/v2/groups/nosbus/gtfs-rt",
+            "url": "https://app.pysae.com/api/v4/groups/nosbus/gtfs-rt",
             "feedId": "fr-nosbus"
         },
 
@@ -1310,26 +1310,6 @@
             "frequency": "30s",
             "url": "https://data.montpellier3m.fr/GTFS/Urbain/VehiclePosition.pb",
             "feedId": "fr-tam"
-        },
-
-        {
-            "type": "real-time-alerts",
-            "frequency": "30s",
-            "url": "https://data.montpellier3m.fr/GTFS/Suburbain/Alert.pb",
-            "feedId": "fr-tam-sub"
-        },
-        {
-            "type": "stop_time_updater",
-            "fuzzyTripMatching": true,
-            "frequency": "30s",
-            "url": "https://data.montpellier3m.fr/GTFS/Suburbain/TripUpdate.pb",
-            "feedId": "fr-tam-sub"
-        },
-        {
-            "type": "vehicle-positions",
-            "frequency": "30s",
-            "url": "https://data.montpellier3m.fr/GTFS/Suburbain/VehiclePosition.pb",
-            "feedId": "fr-tam-sub"
         },
 
         {
@@ -1687,20 +1667,20 @@
         {
             "type": "real-time-alerts",
             "frequency": "2m",
-            "url": "https://app.pysae.com/api/v2/groups/draguignan/gtfs-rt",
+            "url": "https://app.pysae.com/api/v4/groups/draguignan/gtfs-rt",
             "feedId": "fr-tedbus"
         },
         {
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
             "frequency": "2m",
-            "url": "https://app.pysae.com/api/v2/groups/draguignan/gtfs-rt",
+            "url": "https://app.pysae.com/api/v4/groups/draguignan/gtfs-rt",
             "feedId": "fr-tedbus"
         },
         {
             "type": "vehicle-positions",
             "frequency": "1m",
-            "url": "https://app.pysae.com/api/v2/groups/draguignan/gtfs-rt",
+            "url": "https://app.pysae.com/api/v4/groups/draguignan/gtfs-rt",
             "feedId": "fr-tedbus"
         },
 
@@ -1730,20 +1710,20 @@
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
             "frequency": "2m",
-            "url": "https://app.pysae.com/api/v2/groups/cavalaire-h/gtfs-rt",
+            "url": "https://app.pysae.com/api/v4/groups/cavalaire-h/gtfs-rt",
             "feedId": "fr-calavaire"
         },
         {
             "type": "vehicle-positions",
             "frequency": "1m",
-            "url": "https://app.pysae.com/api/v2/groups/cavalaire-h/gtfs-rt",
+            "url": "https://app.pysae.com/api/v4/groups/cavalaire-h/gtfs-rt",
             "feedId": "fr-calavaire"
         },
 
         {
             "type": "real-time-alerts",
             "frequency": "2m",
-            "url": "https://app.pysae.com/api/v2/groups/suma-22ua/gtfs-rt",
+            "url": "https://app.pysae.com/api/v4/groups/suma-22ua/gtfs-rt",
             "feedId": "fr-navette-grimaud"
         },
 
@@ -1751,13 +1731,13 @@
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
             "frequency": "2m",
-            "url": "https://app.pysae.com/api/v2/groups/st-tropez/gtfs-rt",
+            "url": "https://app.pysae.com/api/v4/groups/st-tropez/gtfs-rt",
             "feedId": "fr-saint-tropez"
         },
         {
             "type": "vehicle-positions",
             "frequency": "1m",
-            "url": "https://app.pysae.com/api/v2/groups/st-tropez/gtfs-rt",
+            "url": "https://app.pysae.com/api/v4/groups/st-tropez/gtfs-rt",
             "feedId": "fr-saint-tropez"
         },
 

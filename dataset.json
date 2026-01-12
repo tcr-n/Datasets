@@ -579,7 +579,7 @@
     },
     {
         "type": "gtfs",
-        "source": "https://www.data.gouv.fr/fr/datasets/r/777bdff5-01ee-4f45-aaed-177cbca9a087",
+        "source": "https://app.pysae.com/api/v4/groups/caux-seine-agglo/gtfs/pub",
         "feedId": "fr-rezobus",
         "reference": "https://transport.data.gouv.fr/datasets/reseau-urbain-caux-seine-mobilite-rezobus"
     },
@@ -669,9 +669,9 @@
     },
     {
         "type": "gtfs",
-        "source": "https://www.data.gouv.fr/api/1/datasets/r/2e97c9b3-a59f-42dd-9b9e-a232fa771f21",
+        "source": "https://app.pysae.com/api/v4/groups/transdev-cotentin/gtfs/pub",
         "feedId": "fr-capcotentin",
-        "reference": "https://transport.data.gouv.fr/datasets/horaires-theoriques-et-en-temps-reel-des-bus-et-autocars-circulant-sur-le-reseau-cap-cotentin"
+        "reference": "https://pysae.com"
     },
 
 
@@ -1415,9 +1415,6 @@
         "feedId": "fr-pybus",
         "reference": "https://transport.data.gouv.fr/datasets/horaires-theoriques-et-temps-reel-du-reseau-sarlatbus-gtfs-gtfs-rt"
     },
-
-
-
     {
         "type": "gtfs",
         "source": "https://api.transitous.org/gtfs/fr_tisseo-reseau-transport-urbain-toulousain.gtfs.zip",
@@ -1428,12 +1425,6 @@
         "type": "gtfs",
         "source": "https://data.montpellier3m.fr/GTFS/Urbain/GTFS.zip",
         "feedId": "fr-tam",
-        "reference": "https://transport.data.gouv.fr/datasets/offre-de-transport-tam-en-temps-reel-gtfs-rt-urbain-et-suburbain"
-    },
-    {
-        "type": "gtfs",
-        "source": "https://data.montpellier3m.fr/GTFS/Suburbain/GTFS.zip",
-        "feedId": "fr-tam-sub",
         "reference": "https://transport.data.gouv.fr/datasets/offre-de-transport-tam-en-temps-reel-gtfs-rt-urbain-et-suburbain"
     },
     {
