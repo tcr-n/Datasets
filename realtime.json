@@ -1419,6 +1419,20 @@
         {
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
+            "frequency": "30s",
+            "url": "https://gtfs.bus-tracker.fr/gtfs-rt/lia/trip-updates",
+            "feedId": "fr-lia"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "30s",
+            "url": "https://gtfs.bus-tracker.fr/gtfs-rt/lia/vehicle-positions",
+            "feedId": "fr-lia"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
             "frequency": "2m",
             "url": "https://proxy.transport.data.gouv.fr/resource/transpor-gtfs-rt-trip-update",
             "feedId": "fr-transpor"
