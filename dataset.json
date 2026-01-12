@@ -1986,7 +1986,7 @@
     },
     {
         "type": "gtfs",
-        "source": "https://www.data.gouv.fr/fr/datasets/r/21b768a8-28d1-4f18-a7b0-c848da95d95e",
+        "source": "https://www.data.gouv.fr/api/1/datasets/r/bfc5c9da-7c0d-4f75-801d-be7e15d13e24",
         "feedId": "fr-tud",
         "reference": "https://transport.data.gouv.fr/datasets/reseau-de-transport-urbains-dignois"
     },
