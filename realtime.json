@@ -100,27 +100,69 @@
         {
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
-            "frequency": "2m",
+            "frequency": "30s",
+            "url": "https://api.oisemob.cityway.fr/dataflow/horaire-tc-tr/download?provider=TIC_INT&dataFormat=gtfs-rt",
+            "feedId": "fr-compiegne-inter"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "30s",
+            "url": "https://api.oisemob.cityway.fr/dataflow/vehicule-tc-tr/download?provider=TIC_INT&dataFormat=gtfs-rt",
+            "feedId": "fr-compiegne-inter"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "30s",
+            "url": "https://api.oisemob.cityway.fr/dataflow/horaire-tc-tr/download?provider=TIC_URB&dataFormat=gtfs-rt",
+            "feedId": "fr-compiegne"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "30s",
+            "url": "https://api.oisemob.cityway.fr/dataflow/vehicule-tc-tr/download?provider=TIC_URB&dataFormat=gtfs-rt",
+            "feedId": "fr-compiegne"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "30s",
             "url": "https://api.oisemob.cityway.fr/dataflow/horaire-tc-tr/download?provider=COROLIS_INT&dataFormat=gtfs-rt",
+            "feedId": "fr-corolis-inter"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "30s",
+            "url": "https://api.oisemob.cityway.fr/dataflow/vehicule-tc-tr/download?provider=COROLIS_INT&dataFormat=gtfs-rt",
+            "feedId": "fr-corolis-inter"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "30s",
+            "url": "https://api.oisemob.cityway.fr/dataflow/horaire-tc-tr/download?provider=COROLIS_URB&dataFormat=gtfs-rt",
             "feedId": "fr-corolis"
         },
         {
             "type": "vehicle-positions",
-            "frequency": "1m",
-            "url": "https://api.oisemob.cityway.fr/dataflow/vehicule-tc-tr/download?provider=COROLIS_INT&dataFormat=gtfs-rt",
+            "frequency": "30s",
+            "url": "https://api.oisemob.cityway.fr/dataflow/vehicule-tc-tr/download?provider=COROLIS_URB&dataFormat=gtfs-rt",
             "feedId": "fr-corolis"
         },
 
         {
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
-            "frequency": "2m",
+            "frequency": "30s",
             "url": "https://api.oisemob.cityway.fr/dataflow/horaire-tc-tr/download?provider=AXO&dataFormat=gtfs-rt",
             "feedId": "fr-axo"
         },
         {
             "type": "vehicle-positions",
-            "frequency": "1m",
+            "frequency": "30s",
             "url": "https://api.oisemob.cityway.fr/dataflow/vehicule-tc-tr/download?provider=AXO&dataFormat=gtfs-rt",
             "feedId": "fr-axo"
         },
@@ -128,27 +170,27 @@
         {
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
-            "frequency": "2m",
+            "frequency": "30s",
             "url": "https://api.oisemob.cityway.fr/dataflow/horaire-tc-tr/download?provider=CYPRE&dataFormat=gtfs-rt",
-            "feedId": "fr-cypre"
+            "feedId": "fr-mobi"
         },
         {
             "type": "vehicle-positions",
-            "frequency": "1m",
+            "frequency": "30s",
             "url": "https://api.oisemob.cityway.fr/dataflow/vehicule-tc-tr/download?provider=CYPRE&dataFormat=gtfs-rt",
-            "feedId": "fr-cypre"
+            "feedId": "fr-mobi"
         },
 
         {
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
-            "frequency": "2m",
+            "frequency": "30s",
             "url": "https://api.oisemob.cityway.fr/dataflow/horaire-tc-tr/download?provider=PASSTHELLE&dataFormat=gtfs-rt",
             "feedId": "fr-pass-thelle"
         },
         {
             "type": "vehicle-positions",
-            "frequency": "1m",
+            "frequency": "30s",
             "url": "https://api.oisemob.cityway.fr/dataflow/vehicule-tc-tr/download?provider=PASSTHELLE&dataFormat=gtfs-rt",
             "feedId": "fr-pass-thelle"
         },
@@ -156,13 +198,13 @@
         {
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
-            "frequency": "2m",
+            "frequency": "30s",
             "url": "https://api.oisemob.cityway.fr/dataflow/horaire-tc-tr/download?provider=SABLONS&dataFormat=gtfs-rt",
             "feedId": "fr-sablons"
         },
         {
             "type": "vehicle-positions",
-            "frequency": "1m",
+            "frequency": "30s",
             "url": "https://api.oisemob.cityway.fr/dataflow/vehicule-tc-tr/download?provider=SABLONS&dataFormat=gtfs-rt",
             "feedId": "fr-sablons"
         },
@@ -170,41 +212,13 @@
         {
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
-            "frequency": "2m",
-            "url": "https://api.oisemob.cityway.fr/dataflow/horaire-tc-tr/download?provider=DUC&dataFormat=gtfs-rt",
-            "feedId": "fr-duc"
-        },
-        {
-            "type": "vehicle-positions",
-            "frequency": "1m",
-            "url": "https://api.oisemob.cityway.fr/dataflow/vehicule-tc-tr/download?provider=DUC&dataFormat=gtfs-rt",
-            "feedId": "fr-duc"
-        },
-
-        {
-            "type": "stop_time_updater",
-            "fuzzyTripMatching": true,
-            "frequency": "2m",
-            "url": "https://api.oisemob.cityway.fr/dataflow/horaire-tc-tr/download?provider=LANAVETTE&dataFormat=gtfs-rt",
-            "feedId": "fr-la-navette"
-        },
-        {
-            "type": "vehicle-positions",
-            "frequency": "1m",
-            "url": "https://api.oisemob.cityway.fr/dataflow/vehicule-tc-tr/download?provider=LANAVETTE&dataFormat=gtfs-rt",
-            "feedId": "fr-la-navette"
-        },
-
-        {
-            "type": "stop_time_updater",
-            "fuzzyTripMatching": true,
-            "frequency": "2m",
+            "frequency": "30s",
             "url": "https://api.oisemob.cityway.fr/dataflow/horaire-tc-tr/download?provider=TOHM&dataFormat=gtfs-rt",
             "feedId": "fr-tohm"
         },
         {
             "type": "vehicle-positions",
-            "frequency": "1m",
+            "frequency": "30s",
             "url": "https://api.oisemob.cityway.fr/dataflow/vehicule-tc-tr/download?provider=TOHM&dataFormat=gtfs-rt",
             "feedId": "fr-tohm"
         },
@@ -212,13 +226,13 @@
         {
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
-            "frequency": "2m",
+            "frequency": "30s",
             "url": "https://api.oisemob.cityway.fr/dataflow/horaire-tc-tr/download?provider=LIBBUS&dataFormat=gtfs-rt",
             "feedId": "fr-libbus"
         },
         {
             "type": "vehicle-positions",
-            "frequency": "1m",
+            "frequency": "30s",
             "url": "https://api.oisemob.cityway.fr/dataflow/vehicule-tc-tr/download?provider=LIBBUS&dataFormat=gtfs-rt",
             "feedId": "fr-libbus"
         },
@@ -226,29 +240,85 @@
         {
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
-            "frequency": "2m",
+            "frequency": "30s",
             "url": "https://api.oisemob.cityway.fr/dataflow/horaire-tc-tr/download?provider=LEBUS&dataFormat=gtfs-rt",
-            "feedId": "fr-lebus"
+            "feedId": "fr-lebus-oise"
         },
         {
             "type": "vehicle-positions",
-            "frequency": "1m",
+            "frequency": "30s",
             "url": "https://api.oisemob.cityway.fr/dataflow/vehicule-tc-tr/download?provider=LEBUS&dataFormat=gtfs-rt",
-            "feedId": "fr-lebus"
+            "feedId": "fr-lebus-oise"
         },
 
         {
             "type": "stop_time_updater",
             "fuzzyTripMatching": true,
-            "frequency": "2m",
+            "frequency": "30s",
             "url": "https://api.oisemob.cityway.fr/dataflow/horaire-tc-tr/download?provider=HOPLA&dataFormat=gtfs-rt",
             "feedId": "fr-hopla"
         },
         {
             "type": "vehicle-positions",
-            "frequency": "1m",
+            "frequency": "30s",
             "url": "https://api.oisemob.cityway.fr/dataflow/vehicule-tc-tr/download?provider=HOPLA&dataFormat=gtfs-rt",
             "feedId": "fr-hopla"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "30s",
+            "url": "https://api.oisemob.cityway.fr/dataflow/horaire-tc-tr/download?provider=TRIO1&dataFormat=gtfs-rt",
+            "feedId": "fr-oise-interlot1"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "30s",
+            "url": "https://api.oisemob.cityway.fr/dataflow/vehicule-tc-tr/download?provider=TRIO1&dataFormat=gtfs-rt",
+            "feedId": "fr-oise-interlot1"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "30s",
+            "url": "https://api.oisemob.cityway.fr/dataflow/horaire-tc-tr/download?provider=KO2&dataFormat=gtfs-rt",
+            "feedId": "fr-oise-interlot2"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "30s",
+            "url": "https://api.oisemob.cityway.fr/dataflow/vehicule-tc-tr/download?provider=KO2&dataFormat=gtfs-rt",
+            "feedId": "fr-oise-interlot2"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "30s",
+            "url": "https://api.oisemob.cityway.fr/dataflow/horaire-tc-tr/download?provider=TRIO3&dataFormat=gtfs-rt",
+            "feedId": "fr-oise-interlot3"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "30s",
+            "url": "https://api.oisemob.cityway.fr/dataflow/vehicule-tc-tr/download?provider=TRIO3&dataFormat=gtfs-rt",
+            "feedId": "fr-oise-interlot3"
+        },
+
+        {
+            "type": "stop_time_updater",
+            "fuzzyTripMatching": true,
+            "frequency": "30s",
+            "url": "https://api.oisemob.cityway.fr/dataflow/horaire-tc-tr/download?provider=RIO4&dataFormat=gtfs-rt",
+            "feedId": "fr-oise-interlot4"
+        },
+        {
+            "type": "vehicle-positions",
+            "frequency": "30s",
+            "url": "https://api.oisemob.cityway.fr/dataflow/vehicule-tc-tr/download?provider=RIO4&dataFormat=gtfs-rt",
+            "feedId": "fr-oise-interlot4"
         },
 
 

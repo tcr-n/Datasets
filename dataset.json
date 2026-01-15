@@ -33,27 +33,27 @@
     },
     {
         "type": "gtfs",
-        "source": "https://geocatalogue.hautsdefrance.fr/gtfs/RHDF_GTFS_COM_SCO_60_P1.zip",
-        "feedId": "fr-oise-p1",
-        "reference": "https://transport.data.gouv.fr/datasets/arrets-horaires-et-parcours-theoriques-du-reseau-routier-regional-de-transport-scolaire-et-interurbain-60-oise-1"
+        "source": "https://api.oisemob.cityway.fr/dataflow/offre-tc/download?provider=TRIO1&dataFormat=gtfs",
+        "feedId": "fr-oise-interlot1",
+        "reference": "https://api.oisemob.cityway.fr/dataflow/swagger/"
     },
     {
         "type": "gtfs",
-        "source": "https://geocatalogue.hautsdefrance.fr/gtfs/RHDF_GTFS_COM_SCO_60_P2.zip",
-        "feedId": "fr-oise-p2",
-        "reference": "https://transport.data.gouv.fr/datasets/arrets-horaires-et-parcours-theoriques-du-reseau-routier-regional-de-transport-scolaire-et-interurbain-60-oise-1"
+        "source": "https://api.oisemob.cityway.fr/dataflow/offre-tc/download?provider=KO2&dataFormat=gtfs",
+        "feedId": "fr-oise-interlot2",
+        "reference": "https://api.oisemob.cityway.fr/dataflow/swagger/"
     },
     {
         "type": "gtfs",
-        "source": "https://geocatalogue.hautsdefrance.fr/gtfs/RHDF_GTFS_COM_SCO_60_P3.zip",
-        "feedId": "fr-oise-p3",
-        "reference": "https://transport.data.gouv.fr/datasets/arrets-horaires-et-parcours-theoriques-du-reseau-routier-regional-de-transport-scolaire-et-interurbain-60-oise-1"
+        "source": "https://api.oisemob.cityway.fr/dataflow/offre-tc/download?provider=TRIO3&dataFormat=gtfs",
+        "feedId": "fr-oise-interlot3",
+        "reference": "https://api.oisemob.cityway.fr/dataflow/swagger/"
     },
     {
         "type": "gtfs",
-        "source": "https://geocatalogue.hautsdefrance.fr/gtfs/RHDF_GTFS_COM_SCO_60_P4.zip",
-        "feedId": "fr-oise-p4",
-        "reference": "https://transport.data.gouv.fr/datasets/arrets-horaires-et-parcours-theoriques-du-reseau-routier-regional-de-transport-scolaire-et-interurbain-60-oise-1"
+        "source": "https://api.oisemob.cityway.fr/dataflow/offre-tc/download?provider=RIO4&dataFormat=gtfs",
+        "feedId": "fr-oise-interlot4",
+        "reference": "https://api.oisemob.cityway.fr/dataflow/swagger/"
     },
     {
         "type": "gtfs",
@@ -171,39 +171,45 @@
     },
     {
         "type": "gtfs",
-        "source": "https://api.oisemob.cityway.fr/dataflow/offre-tc/download?provider=COROLIS_INT&dataFormat=GTFS&dataProfil=OPENDATA",
+        "source": "https://api.oisemob.cityway.fr/dataflow/offre-tc/download?provider=COROLIS_URB&dataFormat=GTFS",
         "feedId": "fr-corolis",
-        "reference": "https://transport.data.gouv.fr/datasets/donnees-theoriques-et-temps-reel-du-reseau-corolis-urbain-communaute-dagglomeration-du-beauvaisis"
+        "reference": "https://api.oisemob.cityway.fr/dataflow/swagger/"
     },
     {
         "type": "gtfs",
-        "source": "https://api.oisemob.cityway.fr/dataflow/offre-tc/download?provider=AXO&dataFormat=GTFS&dataProfil=OPENDATA",
+        "source": "https://api.oisemob.cityway.fr/dataflow/offre-tc/download?provider=COROLIS_INT&dataFormat=GTFS",
+        "feedId": "fr-corolis-inter",
+        "reference": "https://api.oisemob.cityway.fr/dataflow/swagger/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.oisemob.cityway.fr/dataflow/offre-tc/download?provider=AXO&dataFormat=gtfs",
         "feedId": "fr-axo",
-        "reference": "https://transport.data.gouv.fr/datasets/donnees-theoriques-et-temps-reel-du-reseau-axo-communaute-dagglomeration-creil-sud-oise"
+        "reference": "https://api.oisemob.cityway.fr/dataflow/swagger/"
     },
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_donnees-theoriques-et-temps-reel-du-reseau-mobi-communaute-de-communes-du-pays-de-valois.gtfs.zip",
+        "source": "https://api.oisemob.cityway.fr/dataflow/offre-tc/download?provider=CYPRE&dataFormat=gtfs",
         "feedId": "fr-mobi",
-        "reference": "https://transitous.org/sources/"
+        "reference": "https://api.oisemob.cityway.fr/dataflow/swagger/"
     },
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_donnees-theoriques-et-temps-reel-du-reseau-pass-thelle-bus-communaute-de-communes-thelloise.gtfs.zip",
+        "source": "https://api.oisemob.cityway.fr/dataflow/offre-tc/download?provider=PASSTHELLE&dataFormat=gtfs",
         "feedId": "fr-pass-thelle",
-        "reference": "https://transitous.org/sources/"
+        "reference": "https://api.oisemob.cityway.fr/dataflow/swagger/"
     },
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_donnees-theoriques-et-temps-reel-du-reseau-sablons-bus-communaute-de-communes-des-sablons.gtfs.zip",
+        "source": "https://api.oisemob.cityway.fr/dataflow/offre-tc/download?provider=SABLONS&dataFormat=gtfs",
         "feedId": "fr-sablons",
-        "reference": "https://transitous.org/sources/"
+        "reference": "https://api.oisemob.cityway.fr/dataflow/swagger/"
     },
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_donnees-theoriques-et-temps-reel-du-reseau-airemob-communaute-de-communes-de-laire-cantilienne.gtfs.zip",
+        "source": "https://api.oisemob.cityway.fr/dataflow/offre-tc/download?provider=CCAC&dataFormat=gtfs",
         "feedId": "fr-airemob",
-        "reference": "https://transitous.org/sources/"
+        "reference": "https://api.oisemob.cityway.fr/dataflow/swagger/"
     },
     {
         "type": "gtfs",
@@ -213,15 +219,15 @@
     },
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_donnees-theoriques-et-temps-reel-du-reseau-tohm-communaute-de-communes-des-pays-doise-et-dhalatte.gtfs.zip",
+        "source": "https://api.oisemob.cityway.fr/dataflow/offre-tc/download?provider=TOHM&dataFormat=gtfs",
         "feedId": "fr-tohm",
-        "reference": "https://transitous.org/sources/"
+        "reference": "https://api.oisemob.cityway.fr/dataflow/swagger/"
     },
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_donnees-theoriques-et-temps-reel-du-reseau-libbus-communaute-de-communes-du-pays-noyonnais.gtfs.zip",
+        "source": "https://api.oisemob.cityway.fr/dataflow/offre-tc/download?provider=LIBBUS&dataFormat=gtfs",
         "feedId": "fr-libbus",
-        "reference": "https://transitous.org/sources/"
+        "reference": "https://api.oisemob.cityway.fr/dataflow/swagger/"
     },
     {
         "type": "gtfs",
@@ -231,15 +237,33 @@
     },
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_donnees-theoriques-et-temps-reel-du-reseau-le-bus-communaute-de-communes-du-clermontois.gtfs.zip",
-        "feedId": "fr-lebus",
-        "reference": "https://transitous.org/sources/"
+        "source": "https://api.oisemob.cityway.fr/dataflow/offre-tc/download?provider=LEBUS&dataFormat=gtfs",
+        "feedId": "fr-lebus-oise",
+        "reference": "https://api.oisemob.cityway.fr/dataflow/swagger/"
     },
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_donnees-theoriques-du-reseau-hopla-communaute-de-communes-de-la-plaine-destrees.gtfs.zip",
+        "source": "https://api.oisemob.cityway.fr/dataflow/offre-tc/download?provider=HOPLA&dataFormat=gtfs",
         "feedId": "fr-hopla",
-        "reference": "https://transitous.org/sources/"
+        "reference": "https://api.oisemob.cityway.fr/dataflow/swagger/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.oisemob.cityway.fr/dataflow/offre-tc/download?provider=ALLOTIC&dataFormat=gtfs",
+        "feedId": "fr-allotic",
+        "reference": "https://api.oisemob.cityway.fr/dataflow/swagger/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.oisemob.cityway.fr/dataflow/offre-tc/download?provider=TIC_URB&dataFormat=gtfs",
+        "feedId": "fr-compiegne",
+        "reference": "https://api.oisemob.cityway.fr/dataflow/swagger/"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://api.oisemob.cityway.fr/dataflow/offre-tc/download?provider=TIC_INT&dataFormat=gtfs",
+        "feedId": "fr-compiegne-inter",
+        "reference": "https://api.oisemob.cityway.fr/dataflow/swagger/"
     },
 
 
