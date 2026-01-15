@@ -13,12 +13,14 @@ from urllib.parse import urlparse
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import urllib.request
 import urllib.error
+import ssl
 
 # Configuration
 TIMEOUT = 15  # seconds
 MAX_RETRIES = 2
 MAX_WORKERS = 20  # Number of concurrent checks
 RATE_LIMIT_DELAY = 0.1  # Small delay between batches
+VERIFY_SSL = False  # Set to False to bypass SSL certificate verification
 
 
 class Colors:
@@ -52,6 +54,12 @@ def check_url(url: str, retries: int = MAX_RETRIES) -> Tuple[bool, str, int]:
     Returns:
         Tuple of (success: bool, message: str, status_code: int)
     """
+    # Create SSL context
+    if VERIFY_SSL:
+        ssl_context = ssl.create_default_context()
+    else:
+        ssl_context = ssl._create_unverified_context()
+    
     for attempt in range(retries):
         try:
             # Try HEAD request first (faster, doesn't download content)
@@ -64,7 +72,7 @@ def check_url(url: str, retries: int = MAX_RETRIES) -> Tuple[bool, str, int]:
                 }
             )
             
-            with urllib.request.urlopen(req, timeout=TIMEOUT) as response:
+            with urllib.request.urlopen(req, timeout=TIMEOUT, context=ssl_context) as response:
                 status_code = response.getcode()
                 content_type = response.headers.get('Content-Type', '')
                 content_length = response.headers.get('Content-Length', 'unknown')
@@ -86,7 +94,7 @@ def check_url(url: str, retries: int = MAX_RETRIES) -> Tuple[bool, str, int]:
                             'Accept': '*/*'
                         }
                     )
-                    with urllib.request.urlopen(req, timeout=TIMEOUT) as response:
+                    with urllib.request.urlopen(req, timeout=TIMEOUT, context=ssl_context) as response:
                         status_code = response.getcode()
                         content_length = response.headers.get('Content-Length', 'unknown')
                         # Read only first 512 bytes to verify
