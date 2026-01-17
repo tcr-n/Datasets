@@ -324,7 +324,7 @@
     },
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_arrets-horaires-et-parcours-theoriques-du-reseau-stan-gtfs.gtfs.zip",
+        "source": "https://api.transitous.org/gtfs/fr_fr-200052264-t0034-0000-1.gtfs.zip",
         "feedId": "fr-stan",
         "reference": "https://transitous.org/sources/"
     },
@@ -378,7 +378,7 @@
     },
     {
         "type": "gtfs",
-        "source": "https://www.data.gouv.fr/api/1/datasets/r/fd7655bc-bfe7-4c13-ba57-2ce9f9282416",
+        "source": "https://zenbus.net/gtfs/static/download.zip?dataset=sitac-calais-rt",
         "feedId": "fr-sitac-calais",
         "reference": "https://transport.data.gouv.fr/datasets/horaires-theoriques-et-temps-reel-aux-formats-gtfs-et-gtfs-rt-du-reseau-sitac?locale=en"
     },
@@ -715,7 +715,7 @@
     },
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_breizhgo-car--81461.gtfs.zip",
+        "source": "https://api.transitous.org/gtfs/fr_breizhgo-car-22.gtfs.zip",
         "feedId": "fr-breitzgo-car-22",
         "reference": "https://transitous.org/sources/"
     },
@@ -1678,7 +1678,7 @@
     },
     {
         "type": "gtfs",
-        "source": "https://api.transitous.org/gtfs/fr_syndicat-mixte-des-transports-en-commun-de-lagglomeration-clermontoise-smtc-ac-reseau-t2c-gtfs-gtfs-rt.gtfs.zip",
+        "source": "https://api.transitous.org/gtfs/fr_r%c3%a9seau-urbain-T2C.gtfs.zip",
         "feedId": "fr-t2c",
         "reference": "https://transitous.org/sources/"
     },
