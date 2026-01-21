@@ -159,7 +159,7 @@
     },
     {
         "type": "gtfs",
-        "source": "https://www.data.gouv.fr/fr/datasets/r/f56b6c9c-0a25-4d87-a1b1-4b108e3d0a22",
+        "source": "https://www.data.gouv.fr/api/1/datasets/r/37ea6578-7f6d-4124-a150-3d450a529d69",
         "feedId": "fr-fablio",
         "reference": "https://transport.data.gouv.fr/datasets/gtfs-reseau-fablio-lignes-regulieres"
     },
