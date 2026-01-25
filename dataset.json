@@ -11,6 +11,30 @@
         "feedId": "fr-sncf",
         "reference": "https://transport.data.gouv.fr/datasets/horaires-des-lignes-ter-sncf"
     },
+    {
+        "type": "gtfs",
+        "source": "https://gtfs.bus-tracker.fr/trenitalia-france.zip",
+        "feedId": "fr-trenitalia",
+        "reference": "https://transport.data.gouv.fr/datasets/horaires-des-trains-trenitalia-france"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://integration-storage.dm.eurostar.com/gtfs-prod/gtfs_static_commercial_v2.zip",
+        "feedId": "eu-eurostar",
+        "reference": "https://transport.data.gouv.fr/datasets/eurostar-gtfs-plan-de-transport-et-temps-reel"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://www.data.gouv.fr/fr/datasets/r/30782be6-90aa-40bb-940a-cb881a95ad26",
+        "feedId": "fr-zou-trsi",
+        "reference": "https://transport.data.gouv.fr/datasets/zou"
+    },
+    {
+        "type": "gtfs",
+        "source": "https://ssl.renfe.com/gtransit/Fichero_AV_INT/Renfe_AVE_Int.zip",
+        "feedId": "fr-renfe",
+        "reference": "https://transport.data.gouv.fr/datasets/horaires-ave-espagne-france"
+    },
 
 
     {
